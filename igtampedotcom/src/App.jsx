@@ -27,6 +27,8 @@ import UMSPage from './components/pages/passtimes/ums/UMSPage';
 import GraphicsPage from './components/pages/passtimes/graphics/GraphicsPage';
 import PhotosPage from './components/pages/passtimes/photos/PhotosPage';
 import VideosPage from './components/pages/passtimes/videos/VideosPage';
+import UMSWebPage from './components/pages/programs/umsweb/UMSWebPage';
+import BatchPage from './components/pages/programs/batch/BatchPage';
 
 export default function App() {
 
@@ -70,6 +72,8 @@ export default function App() {
         <Route exact path='/Programs/UMSAT'><UMSATPage Vertical={Vertical}/></Route>
         <Route exact path='/Programs/AirportBoard'><AirportBoardPage Vertical={Vertical}/></Route>
         <Route exact path='/Programs/Java'><JavaPage Vertical={Vertical}/></Route>
+        <Route exact path='/Programs/UMSWEB'><UMSWebPage Vertical={Vertical}/></Route>
+        <Route exact path='/Programs/Batch'><BatchPage Vertical={Vertical}/></Route>
 
         {/* Endeavors */}
 
