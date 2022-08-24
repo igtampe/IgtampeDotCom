@@ -38,9 +38,10 @@ export default function AirportBoardPage({
         <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/airportboard/landingpad.png" big right>
             <ElevatedSection title='Also, LandingPad'>
                 LandingPad, based on AirportBoard 2.0, modifies the code slightly to allow users to run programs by hitting specified keys. I 
-                designed it primarily to replace the aging batch file that ran the launcher for my SSH server. The result of using AirportBoard 
-                made for a much faster draw-time when compared to the work-arounds I used in the batch file I made in 2018. Though, perhaps some 
-                of its quirks gave it some charm. Still, I appreciate the quicker access times when just checking up on my server.
+                designed it primarily to replace the aging batch file that ran the launcher for my <Link href='/programs/umsweb'>SSH server</Link>. 
+                The result of using AirportBoard made for a much faster draw-time when compared to the work-arounds I used in the batch file I made 
+                in 2018. Though, perhaps some of its quirks gave it some charm. Still, I appreciate the quicker access times when just checking up 
+                on my server.
             </ElevatedSection>
         </ImageSideSection>
         <ElevatedSection title='Gallery'/>
