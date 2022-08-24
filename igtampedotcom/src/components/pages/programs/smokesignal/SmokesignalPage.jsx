@@ -18,7 +18,7 @@ export default function SmokeSignalPage({
             SmokeSignal works on a simple premise. Send the server a message, and receive a response. It may not be the greatest,
             and definitely not the most sustainable network strategy. However, for simple projects, it's more than sufficient.
         </ElevatedSection>
-        <ImageSideSection big imgSrc="/images/programs/smokesignal/client.png" Vertical={Vertical}>
+        <ImageSideSection big imgSrc="/images/programs/smokesignal/Client.png" Vertical={Vertical}>
             <ElevatedSection title='Easy to Implement'>
                 SmokeSignal, when implemented properly, can make it easy to communicate with a distant server, as if it was a simple local function.
 

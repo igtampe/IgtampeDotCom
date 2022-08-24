@@ -22,7 +22,7 @@ export default function ColloquorPage({
 
         <div style={{marginTop:'20px'}}/>
 
-        <ImageSideSection imgSrc="/images/programs/colloquor/history.png" big imgDesc="Colloquor 2.4">
+        <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/colloquor/history.png" big imgDesc="Colloquor 2.4">
             <ElevatedSection title='A Program with History'>
                 This version of the Colloquor client is actually V4. The original version was written in batch, circa 2014. 
                 I included a dedication in the client's about page, as well as an extractable copy of Colloquor 2.4. It's quite an 
@@ -32,7 +32,7 @@ export default function ColloquorPage({
             </ElevatedSection>    
         </ImageSideSection>
 
-        <ImageSideSection right imgSrc="/images/programs/colloquor/server.png" >
+        <ImageSideSection Vertical={Vertical}right imgSrc="/images/programs/colloquor/server.png" >
             <ElevatedSection title='Powered by Switchboard'>
                 Colloquor is, again, a demo for <Link href='/programs/switchboard'>Switchboard</Link>. Colloquor's server is entirely 
                 contained in the Colloquor's Switchboard Extension, in a system very similar to that of <Link href='/programs/vibe'>ViBE's</Link> 

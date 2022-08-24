@@ -71,7 +71,7 @@ export default function BasicRenderPage({
             ]}
             right //ignore vertical
         />
-        <ImageSideSection right imgSrc="/images/programs/basicrender/errordiag.png" big>
+        <ImageSideSection Vertical={Vertical} right imgSrc="/images/programs/basicrender/errordiag.png" big>
             <ElevatedSection title='Dynamically Sized Dialog Boxes'>
                 <p>BasicWindows has been revamped with  a new FormattedText object, which allows it to accurately predict and size a text label. The result? We're now
                     able to dynamically size dialog boxes depending on their contents.</p>
@@ -82,7 +82,7 @@ export default function BasicRenderPage({
                 <p>DialogBox also has a method to display an exception, along with its stacktrace. Its trimmed to fit, by removing namespace and filename path.</p>
             </ElevatedSection>
         </ImageSideSection>
-        <ImageSideSection imgSrc="/images/programs/basicrender/bfonts.png" big>
+        <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/basicrender/bfonts.png" big>
             <ElevatedSection title='Dynamically Sized Dialog Boxes'>
                 <p>Now with this addition to the BasicRender toolset, you can create fonts to draw big text! All of the DF files for each letter are stored in a single,
                     neatly organized <Link href='https://github.com/igtampe/dictionaryondisk'>Dictionary On Disk</Link> file, and can be drawn in any color due to the way the data is stored.</p>
@@ -90,13 +90,13 @@ export default function BasicRenderPage({
                 <p>Included in the package is also an editor, where anyone can create, edit, and preview a BasicFont (*.bfnt). The editor spawns a console window to render the preview.</p>
             </ElevatedSection>
         </ImageSideSection>
-        <ImageSideSection imgSrc="/images/programs/basicrender/bshapes.png" big right>
+        <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/basicrender/bshapes.png" big right>
             <ElevatedSection title='Geometry in BasicRender'>
                 <p>The most recent addition to BasicRender is a very small package to render, and dynamically shape geometry on the console. Included are basic geometry classes for lines,
                     curves, and polygons, and functions to translate and scale them. In the future, we hope to add rotation.</p>
             </ElevatedSection>
         </ImageSideSection>
-        <ImageSideSection imgSrc="/images/programs/basicrender/airportboard.png" big>
+        <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/basicrender/airportboard.png" big>
             <ElevatedSection title='Easily usable anywhere'>
                 <p>BasicRender is in almost all of my console projects, just because it makes coding for the console so much easier.</p>
 

@@ -12,7 +12,7 @@
     },{
         "name":"Graphics",
         "desc":"Minimal and simplistic logos for UMS companies and all my software projects",
-        "imgSrc":"/logos/solaris.png",
+        "imgSrc":"/logos/Solaris.png",
         "link":"graphics"
     },{
         "name":"Photos",
@@ -22,7 +22,7 @@
     },{
         "name":"Video Editing",
         "desc":"One of my earliest passions, though now I don't use it that much",
-        "imgSrc":"/images/passtimes/videos/forgottendream.png",
+        "imgSrc":"/images/passtimes/videos/main.png",
         "link":"ums"
     }
 ]

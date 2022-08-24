@@ -12,7 +12,7 @@ export default function AirportBoardPage({
     return(<>
     <ProgramHeader name="AirportBoard" git="https://github.com/igtampe/AirportBoard" />
         
-        <ImageSection Vertical={Vertical} imgSrc='/images/programs/Airportboard/main.png' title='A Console Information Display'>
+        <ImageSection Vertical={Vertical} imgSrc='/images/programs/airportboard/main.png' title='A Console Information Display'>
             AirportBoard uses its own proprietary files to generate a console based, information display. The result is a retro 
             experience, which is easy to customize to make it your own.
         </ImageSection>
@@ -24,7 +24,7 @@ export default function AirportBoardPage({
             very reminiscent of the Batch files I used to code.
         </ElevatedSection>
 
-        <ImageSideSection imgSrc="/images/programs/Airportboard/abwriter.png" big>
+        <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/airportboard/abwriter.png" big>
             <ElevatedSection title='Bundled with Tools'>
                 <p>Included with the AirportBoard releases I've made, is <Link href='https://github.com/igtampe/abwriter'>ABWriter</Link>. 
                     It's an IDE of sorts, which helps building ABScirpt files, and even lets you preview files, given you have 
@@ -35,7 +35,7 @@ export default function AirportBoardPage({
             </ElevatedSection>
         </ImageSideSection>
 
-        <ImageSideSection imgSrc="/images/programs/Airportboard/landingpad.png" big right>
+        <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/airportboard/landingpad.png" big right>
             <ElevatedSection title='Also, LandingPad'>
                 LandingPad, based on AirportBoard 2.0, modifies the code slightly to allow users to run programs by hitting specified keys. I 
                 designed it primarily to replace the aging batch file that ran the launcher for my SSH server. The result of using AirportBoard 

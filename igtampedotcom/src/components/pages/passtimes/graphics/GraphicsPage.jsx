@@ -11,7 +11,7 @@ export default function GraphicsPage({
 
     return (<>
         <ProgramHeader name='Graphics' />
-        <ImageSideSection right imgSrc="/logos/solaris.png">
+        <ImageSideSection right imgSrc="/logos/Solaris.png">
             <ElevatedSection title='Logos Galore'>
                 Simple and effective
             </ElevatedSection>
@@ -50,7 +50,7 @@ export default function GraphicsPage({
         <ElevatedSection title='ViBE and FLoW'/>
         <Grid container spacing={3}>
             <Grid item xs={Vertical? 12 : 6}><BigImageCard imgSrc='/logos/ViBE.png'></BigImageCard></Grid>
-            <Grid item xs={Vertical? 12 : 6}><BigImageCard imgSrc='/logos/FLoW.png'></BigImageCard></Grid>
+            <Grid item xs={Vertical? 12 : 6}><BigImageCard imgSrc='/logos/Flow.png'></BigImageCard></Grid>
         </Grid>
 
         <div style={{marginBottom:'20px'}}/>
@@ -58,7 +58,7 @@ export default function GraphicsPage({
         <Grid container spacing={3}>
             <Grid item xs={Vertical? 12 : 3}><ImageCard imgSrc='/logos/EzTax.png'>EzTax, a Tax and income management subprogram of ViBE</ImageCard></Grid>
             <Grid item xs={Vertical? 12 : 3}><ImageCard imgSrc='/logos/Checkbook2000.png'>Checkbook 2000, a check and billing subprogram of ViBE</ImageCard></Grid>
-            <Grid item xs={Vertical? 12 : 3}><ImageCard imgSrc='/logos/Asimov2000.png'>Assisted Income Manager over ViBE</ImageCard></Grid>
+            <Grid item xs={Vertical? 12 : 3}><ImageCard imgSrc='/logos/ASIMoV2000.png'>Assisted Income Manager over ViBE</ImageCard></Grid>
             <Grid item xs={Vertical? 12 : 3}><ImageCard imgSrc='/logos/UserTrace.png'>UserTrace, a user tree invitation visualizer</ImageCard></Grid>
         </Grid>
 
@@ -74,8 +74,8 @@ export default function GraphicsPage({
         <ElevatedSection title='Server Related Tools and Logos'/>
         <Grid container spacing={3}>
             <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/UMSWEB.png'>UMSWEB logo, still used to denote common authentication between services</BigImageCard></Grid>
-            <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/AURORA.png'>The Artemis RElaunch and Outage Registry Administrator (AURORA). Moniored my server Artemis</BigImageCard></Grid>
-            <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/KnowNow.png'>KnowNOW, Nexus's News Aggregator</BigImageCard></Grid>
+            <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/Aurora.png'>The Artemis RElaunch and Outage Registry Administrator (AURORA). Moniored my server Artemis</BigImageCard></Grid>
+            <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/KnowNOW.png'>KnowNOW, Nexus's News Aggregator</BigImageCard></Grid>
         </Grid>
 
         <div style={{marginBottom:'20px'}}/>
@@ -89,8 +89,8 @@ export default function GraphicsPage({
         <div style={{marginBottom:'20px'}}/>
         <ElevatedSection title='UMS Corporations'/>
         <Grid container spacing={3}>
-            <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/x2.png'>X2 Corporation, a Comptuer and Telecom company</BigImageCard></Grid>
-            <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/ngb.png'>Next Generation Burger (NGB), a fast food brand</BigImageCard></Grid>
+            <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/X2.png'>X2 Corporation, a Comptuer and Telecom company</BigImageCard></Grid>
+            <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/NGB.png'>Next Generation Burger (NGB), a fast food brand</BigImageCard></Grid>
             <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/Exottica.png'>Exotica, a luxury make-up brand</BigImageCard></Grid>
             <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/Velvet.png'>Velvet Corporation, a conglomerate of corporations</BigImageCard></Grid>
             <Grid item xs={Vertical? 12 : 4}><BigImageCard imgSrc='/logos/ApolloRAC.png'>Apollo Rent-A-Car, a budget rent-a-car corporation. Deals hotter than the sun!</BigImageCard></Grid>

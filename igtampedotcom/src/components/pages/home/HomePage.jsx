@@ -94,7 +94,7 @@ export default function Home({
         }        
       </Grid>
       <Divider style={{ marginTop: '20px', marginBottom: '20px' }} />
-      <ImageSection Vertical={Vertical} imgSrc="/images/OmtatDonation.jpg" title='My Past'>
+      <ImageSection Vertical={Vertical} imgSrc="/images/OMTATDonation.jpg" title='My Past'>
         <p>I've done my part in a few clubs and associations. </p>
       </ImageSection>
       <Grid container spacing={3} style={{marginTop:'5px'}}>

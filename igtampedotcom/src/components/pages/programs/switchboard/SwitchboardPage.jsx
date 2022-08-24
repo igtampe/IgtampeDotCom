@@ -39,7 +39,7 @@ export default function SwitchboardPage({
             </ElevatedSection>
         </ImageSideSection>
 
-        <ImageSideSection right imgSrc="/images/programs/switchboard/sample.png" >
+        <ImageSideSection Vertical={Vertical} right imgSrc="/images/programs/switchboard/sample.png" >
             <ElevatedSection title='More Easily Debuggable'>
                 Switchboard logs the commands it receives and replies it sends on a per connection basis, which should hopefully allow users to debug their
                 programs a little more easily.
@@ -49,7 +49,7 @@ export default function SwitchboardPage({
             </ElevatedSection>
         </ImageSideSection>
 
-        <ImageSideSection imgSrc="/images/programs/switchboard/colloquor.png" big>
+        <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/switchboard/colloquor.png" big>
             <ElevatedSection title='Just as Extensible'>
                 Built on our knowledge from Smokesignal and Secuquor, Swithcboard easily allows the integration of Switchboard Extensions, all of which
                 manageable through the same settings window.
