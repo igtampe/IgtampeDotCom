@@ -1,0 +1,45 @@
+[
+    {
+        "name":"Visual Basic Economy (ViBE)",
+        "desc":"ViBE has been a massive project, which has several subprograms. All of which are designed for a tiny model nation I run.",
+        "site":"",
+        "git":"https://github.com/igtampe/ViBE",
+        "imgSrc":"https://repository-images.githubusercontent.com/183323999/edc2df00-5f38-11ea-936e-8a98db5c21ea",
+        "link":"vibe"
+    },{
+        "name":".NET Economy (Neco)",
+        "desc":"Neco is the next iteration of ViBE. Reworked from the ground up to use a database and other proper industry tools, and unified access through an SPA",
+        "site":"https://neco.igtampe.com",
+        "git":"https://github.com/igtampe/neco",
+        "imgSrc":"https://repository-images.githubusercontent.com/399487679/84fabee2-320a-4830-bae1-010884999143",
+        "link":"neco"
+    },{
+        "name":"BasicRender",
+        "desc":"BasicRender is a set of C# class libraries that make it easy to render text and graphics on a .NET Console",
+        "site":"https://www.nuget.org/packages/Igtampe.BasicRender",
+        "git":"https://github.com/igtampe/BasicRender",
+        "imgSrc":"https://repository-images.githubusercontent.com/280755654/f5c46e00-c971-11ea-9569-9223a64edc93",
+        "link":"basicrender"
+    },{
+        "name":"Atlas",
+        "desc":"Atlas is a simple wiki app using a markdown-like syntax currently used to power the UMS Wiki",
+        "site":"https://umswiki.herokuapp.com",
+        "git":"https://github.com/igtampe/Atlas",
+        "imgSrc":"https://repository-images.githubusercontent.com/472542854/eed93ac4-1c40-4a86-81cc-95caf205b70f",
+        "link":"atlas"
+    },{
+        "name":"IRED/IDACRA",
+        "desc":"IRED/IDACRA is a set of class libraries to speed up the development of ASP.NET backends. Currently a work in progress",
+        "site":"",
+        "git":"https://github.com/igtampe/Igtampe.Redistributables",
+        "imgSrc":"https://repository-images.githubusercontent.com/521361497/c6e7c63f-4f45-4ee5-b050-599c6251a3e6",
+        "link":"ired"
+    },{
+        "name":"INSO Projects",
+        "desc":"As part of becoming a Software Engineer, we've designed several apps in large teams, with various technologies",
+        "site":"",
+        "git":"https://github.com/igtampe/ViBE",
+        "imgSrc":"/images/programs/classtrack/classtrack.png",
+        "link":"inso"
+    }
+]

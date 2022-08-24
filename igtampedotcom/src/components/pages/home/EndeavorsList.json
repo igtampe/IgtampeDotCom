@@ -1,0 +1,13 @@
+[
+    {
+        "name":"One Man's Trash is Another's Treasure (OMTAT)",
+        "desc":"A computer recycling and donation project, which managed to process just under 100 computers, and donate 70 of them to local non-proffits",
+        "imgSrc":"/images/endeavors/omtat/logo.png",
+        "link":"omtat"
+    },{
+        "name":"Asociacion pro-Reciclaje de Electronicos (ARElec)",
+        "desc":"A small association, which managed to promote and spread awareness of computer recycling and security to the UPRM Campus population",
+        "imgSrc":"/images/endeavors/arelec/logo.png",
+        "link":"arelec"
+    }
+]
