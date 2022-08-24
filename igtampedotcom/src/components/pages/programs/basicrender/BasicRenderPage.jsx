@@ -19,7 +19,7 @@ export default function BasicRenderPage({
         </ImageSection>
         <ImageSideSection imgSrc="/images/programs/basicrender/dfdemo.png" big Vertical={Vertical}>
             <ElevatedSection title='Primitive Images on Console'>
-                BasicGraphics allows you to render actual images on the console. Using the proprietary DrawFile (DF) file, and its editor {' '}
+                BasicGraphics allows you to render actual images on the console. Using the proprietary DrawFile (DF) format, and its editor {' '}
                 <Link href='https://github.com/igtampe/henja3'>Henja3</Link>, users can quickly create images to later render in any program with BasicGraphics
                 (Either from a file, or as a bundled resource).
             </ElevatedSection>
@@ -32,7 +32,7 @@ export default function BasicRenderPage({
                     for 3 shades of dithering between two of the original 16 colors of the console.  Through some testing, it has been determined that about 370 colors can be displayed.</p>
 
                 <p>In addition to allowing users to draw manually, we've created a tool (<Link href='https://github.com/igtampe/imagetobasicgraphic'>ImageToBasicGraphic</Link>)
-                    to convert standard image files (IE JPEG or PNG files) to BasicGraphics. This allows users to use their prefered design tools, and then import the image to their
+                    to convert standard image files (IE JPEG or PNG files) to BasicGraphics. This allows users to use their preferred design tools, and then import the image to their
                     console app.</p>
 
                 <p>This can be taken to the extreme by using a very small console font size. Below is an example.</p>
@@ -58,7 +58,7 @@ export default function BasicRenderPage({
                 <p>Essentially, BasicWindows behave like "programs" themselves, as they are "Executed".</p>
 
                 <p>Though there is no window manager, BasicWindows can call on other Windows, and can redraw themselves when complete, giving the
-                    illusion of one.  In addition, if someone wants to make one using BasicWindows i'd assume it's technically possible.</p>
+                    illusion of one.  In addition, if someone wants to make one using BasicWindows I'd assume it's technically possible.</p>
 
                 <p>Below are some other examples of windows</p>
             </ElevatedSection>
@@ -76,16 +76,16 @@ export default function BasicRenderPage({
                 <p>BasicWindows has been revamped with  a new FormattedText object, which allows it to accurately predict and size a text label. The result? We're now
                     able to dynamically size dialog boxes depending on their contents.</p>
 
-                <p>Not only that, Dialogbox allows you to choose from a set of icons, and a set of button combinations, and when run, returns a result depending on which
+                <p>Not only that, Dialogbox allows you to choose from a set of icons, and a set of button combinations. When run, it returns a result depending on which
                     button was hit.</p>
 
                 <p>DialogBox also has a method to display an exception, along with its stacktrace. Its trimmed to fit, by removing namespace and filename path.</p>
             </ElevatedSection>
         </ImageSideSection>
         <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/basicrender/bfonts.png" big>
-            <ElevatedSection title='Dynamically Sized Dialog Boxes'>
+            <ElevatedSection title='Big Text with BasicFonts'>
                 <p>Now with this addition to the BasicRender toolset, you can create fonts to draw big text! All of the DF files for each letter are stored in a single,
-                    neatly organized <Link href='https://github.com/igtampe/dictionaryondisk'>Dictionary On Disk</Link> file, and can be drawn in any color due to the way the data is stored.</p>
+                    neatly organized <Link href='https://github.com/igtampe/dictionaryondisk'>Dictionary On Disk</Link> file, and can be drawn in any color.</p>
 
                 <p>Included in the package is also an editor, where anyone can create, edit, and preview a BasicFont (*.bfnt). The editor spawns a console window to render the preview.</p>
             </ElevatedSection>
@@ -104,7 +104,7 @@ export default function BasicRenderPage({
                     <Link href='/programs/airportboard'>AirportBoard</Link>.</p>
 
                 <p>AirportBoard was originally an example project for BasicRender as a VB.NET module, but has since been reworked to use the new C# class libraries. Thanks to extensive
-                    backward compatability efforts, the two are functionally indistinguishable. However this leap has allowed us to make it more portable, especially by publishing it
+                    backward compatibility efforts, the two are functionally indistinguishable. However this leap has allowed us to make it more portable, especially by publishing it
                     to NuGet.</p>
             </ElevatedSection>
         </ImageSideSection>

@@ -18,13 +18,13 @@ export default function NecoPage({
         </ImageSection>
         <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/neco/db.png" >
             <ElevatedSection title="Breaking from TEBECON">
-                Neco completely breaks with the <Link href='/programs/umsweb'>Tebecon</Link> standard. Instead of storing data on separate files and folders, Neco stores all data in
-                a PostgreSQL Database. This brings drastic flexibility improvements in what we store, what services we use to host it and the backend,
+                Neco completely breaks with the <Link href='/programs/umsweb'>Tebecon</Link> standard. Instead of storing data on separate files and folders, 
+                Neco stores all data in a PostgreSQL Database. This brings drastic flexibility improvements in what we store, what services we can use to host it,
                 and how we access it. It also allows us to do more with the data, like getting statistics, and more dynamic linking between bits of information.
             </ElevatedSection>
         </ImageSideSection>
         <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/neco/account.png" right >
-            <ElevatedSection title="Breaking from TEBECON">
+            <ElevatedSection title="New Features">
                 Neco brings several new features compared to ViBE's set. Most notably, however, is allowing multi-owner accounts. Previously in ViBE, users
                 used the KeyRing to switch between corporate and personal accounts, along with any other corporations they shared with others with shared logins.
                 Neco does away with this, by moving the income type distinction to the account level, and allowing multiple ownership. Users can now have personal

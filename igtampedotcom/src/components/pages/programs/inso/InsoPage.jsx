@@ -31,7 +31,7 @@ export default function InsoPage({
                 Built on C#/ASP.NET/EF and React.JS, Spots was another booking system we designed for the Software Design course. Although it shared a similar purpose to
                 AMIE, Spots was designed for individual spots. It was done with a group with 2 other students.
 
-                <p>We primarily worked backend for this project, as usual, and worked to flex our acquired skills with EF Core which we learned over the summer at an
+                <p>I primarily worked backend for this project, as usual, and worked to flex my acquired skills with EF Core which I learned over the summer at an
                     internship. This meant a very quick turnaround time for requested features and API routes.</p>
             </ElevatedSection>
         </ImageSideSection>
@@ -48,11 +48,11 @@ export default function InsoPage({
         <ImageSideSection imgSrc="/images/programs/inso/pistachio.png" big Vertical={Vertical}>
             <ProgramHeader name='Pistachio' git='https://github.com/uprm-inso-4115-2020-2021-s2/semester-project-mk-ii-almond-software-llc/tree/staging' />
             <ElevatedSection>
-                Built again on Java-Springboot and React.JS, Pistachio was our second INSO project, for the  Requirements and Testing course. Built in a team of 8, Pistachio
+                Built again on Java-Springboot and React.JS, Pistachio was our second INSO project, for the  Requirements and Testing course. Built with a team of 8, Pistachio
                 was pitched as a Pokemon GO competitor, and the team did manage to deliver on some parts. Our project scope was rather large, and some elements needed to be
                 cut, but in the end we were satisfied with our product.
 
-                <p>We worked backend again, and primarily worked on extensive unit testing of the components we developed, along with load testing with Gatling to test the
+                <p>I worked backend again, and primarily worked on extensive unit testing of the components we developed, along with load testing with Gatling to test the
                     backend for resiliency.  </p>
             </ElevatedSection>
         </ImageSideSection>
@@ -63,7 +63,7 @@ export default function InsoPage({
                 Built on Java-Springboot and React.JS, Macademia was our first INSO project, for the Intro to Software Engineering course. Built in a team of 7 people,
                 Macademia's end goal was to provide students an easier way to enroll college courses for their upcoming semester, and see previously enrolled courses.
 
-                <p>We worked backend for this project, primarily the database handling interface. Our tables and SQL knowledge was limited at the time, but we managed
+                <p>I worked backend for this project, primarily the database handling interface. My table and SQL knowledge was limited at the time, but I managed
                     to make a decent enough handler, and a great first start into databases in a more professional setting.   </p>
             </ElevatedSection>
         </ImageSideSection>

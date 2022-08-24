@@ -23,9 +23,6 @@ export default function JavaPage({
                     do, creating an overall better product.</p>
 
                 <p>Thanks to this and the work of my partner, this project was commended by our professor and TA, and we were asked to present.</p>
-
-                <p>This project isn't public because the repo was made under Github Classroom, and is under control of my college. However, I can send the
-                    source or a compiled final product upon request.</p>
             </ElevatedSection>
         </ImageSideSection>
 

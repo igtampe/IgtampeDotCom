@@ -24,7 +24,7 @@ export default function OmtatPage({
             <ElevatedSection title='Getting Student Help'>
                 I presented the idea of OMTAT to my high school's administration, and eventually to the student body. OMTAT would
                 be a club that would both blend recycling, and community service. The administration was enthralled, and I received
-                generally positive feedback from students. The presentation was well worth it, even if it was rather nerve-wracking.
+                generally positive feedback from students. The presentation was well worth it, even if it was rather nerve-racking.
                 This was the beginning of a 2 year project, where students helped and learned under my leadership. We worked for several
                 hours during and after-school in the computer lab where we were allowed to set up. Though there were a few frustrating
                 computers that just didn't want to work, we managed to succeed, and soon enough had several computers ready to be donated

@@ -54,8 +54,8 @@ export default function SwitchboardPage({
                 Built on our knowledge from Smokesignal and Secuquor, Swithcboard easily allows the integration of Switchboard Extensions, all of which
                 manageable through the same settings window.
 
-                <p>Aside from the new virtual settings function, the Switchboard Extension abstract class is very similar to a SmokeSignal extension, 
-                    and an extension made there should be easily portable to Switchboard.</p>
+                <p>Aside from the new virtual settings function, the Switchboard Extension abstract class is very similar to a SmokeSignal extension. 
+                    An extension made there should be easily portable to Switchboard.</p>
             </ElevatedSection>
         </ImageSideSection>
     </>)
