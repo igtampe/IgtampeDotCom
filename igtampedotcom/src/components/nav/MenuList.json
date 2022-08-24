@@ -1,0 +1,197 @@
+[
+
+    {
+        "title": "Home",
+        "link": true,
+        "description": "Go back home!",
+        "href": "/",
+        "icon": "material:home"
+    },
+    {
+        "title": "Programs",
+        "menu": true,
+        "menuItems": [
+            {
+                "title": "ViBE",
+                "description": "The Visual Basic Economy",
+                "href": "/Programs/ViBE",
+                "icon": "/icons/vibe.ico"
+            },
+            {
+                "title": "Neco",
+                "description": ".NET Economy",
+                "href": "/Programs/Neco",
+                "icon": "/icons/neco.ico"
+            },
+            {
+                "title": "BasicRender",
+                "description": "An easy to use basic C# Console graphics library",
+                "href": "/Programs/BasicRender",
+                "icon": "/icons/basicrender.png"
+            },
+            {
+                "title": "Clothespin",
+                "description": "A clothes and closset tracking application",
+                "href": "/Programs/Clothespin",
+                "icon": "/icons/clothespin.ico"
+            },
+            {
+                "title": "IRED/IDACRA",
+                "description": "A class library that makes it easy and fast to build ASP.NET backends",
+                "href": "/Programs/IRED",
+                "icon": "/icons/ired.ico"
+            },
+            {
+                "title": "Atlas",
+                "description": "A very simple wiki application with a markdown-like syntax",
+                "href": "/Programs/Atlas",
+                "icon": "/icons/umswiki.ico"
+            },
+            {
+                "title": "INSO Projects",
+                "description": "Projects as part of INSO (Software Engineering) classes",
+                "href": "/Programs/INSO",
+                "icon": "material:construction"
+            }
+        ]
+    },
+    {
+        "title": "",
+        "menu": true,
+        "menuItems": [
+            {
+                "title": "PSG",
+                "description": "A patient consult tracker and billing manager",
+                "href": "/Programs/PSG",
+                "icon": "/icons/psg.ico"
+            },
+            {
+                "title": "SmokeSignal",
+                "description": "A simple but extensible Client/Server framework built in VB.NET",
+                "href": "/Programs/SmokeSignal",
+                "icon": "/icons/smokesignal.ico"
+            },
+            {
+                "title": "Switchboard",
+                "description": "A more mature, more scalable and stable evolution of SmokeSignal, now in C#",
+                "href": "/Programs/Switchboard",
+                "icon": "/icons/switchboard.ico"
+            },
+            {
+                "title": "Colloquor",
+                "description": "A real time texting application, and an example of Switchboard\"s potential",
+                "href": "/Programs/Colloquor",
+                "icon": "/icons/colloquor.ico"
+            },
+            {
+                "title": "UMSAT",
+                "description": "The UMS Asset Tracking System",
+                "href": "/Programs/UMSAT",
+                "icon": "/icons/umsat.ico"
+            },
+            {
+                "title": "Airportboard",
+                "description": "An Airport information board program to sample the capabilities of BasicRender",
+                "href": "/Programs/AirportBoard",
+                "icon": "/icons/airportboard.ico"
+            },
+            {
+                "title": "Java",
+                "description": "Java personal and class projects",
+                "href": "/Programs/Java",
+                "icon": "/icons/java.png"
+            }
+        ]
+    },
+    {
+        "title": "Endeavors",
+        "menu": true,
+        "menuItems": [
+            {
+                "title": "OMTAT",
+                "description": "One Man\"s Trash is Another\"s Treasure: A Computer recycling and donation club",
+                "href": "/Endeavors/OMTAT",
+                "icon": "/icons/omtat.ico"
+            },
+            {
+                "title": "ARElec",
+                "description": "Asociacion Pro-Recyclaje de Electonicos: A recycling and computer/security literacy association",
+                "href": "/Endeavors/Arelec",
+                "icon": "/icons/arelec.png"
+            }
+        ]
+    },
+    {
+        "title": "Passtimes",
+        "menu": true,
+        "menuItems": [
+            {
+                "title": "Nexus",
+                "description": "The Nexus Discord Server",
+                "href": "/Passtimes/Nexus",
+                "icon": "/icons/nexus.jpg"
+            },
+            {
+                "title": "UMS",
+                "description": "The Ultra Modern Sector model nation and government",
+                "href": "/Passtimes/UMS",
+                "icon": "/icons/ums.png"
+            },
+            {
+                "title": "Graphics",
+                "description": "🐸 Graphic design is my passion 🐸",
+                "href": "/Passtimes/Graphics",
+                "icon": "material:multilinechart"
+            },
+            {
+                "title": "Photos",
+                "description": "Someday I\"ll get a DSLR",
+                "href": "/Passtimes/Photos",
+                "icon": "material:photo"
+            },
+            {
+                "title": "Video Editing",
+                "description": "Basic, but definitely gets the job done",
+                "href": "/Passtimes/Videos",
+                "icon": "material:moviecreation"
+            }
+        ]
+    },
+    {
+        "title": "Other links",
+        "menu": true,
+        "menuItems": [
+            {
+                "title": "IGTNET",
+                "description": "The Igtampe Computer Network: A list of resources for Nexus and The UMS",
+                "href": "https://igtnet.igtampe.com",
+                "icon": "/favicon.ico"
+            },
+            {
+                "title": "Github",
+                "description": "Take a look at my code!",
+                "href": "https://github.igtampe.com",
+                "icon": "material:github"
+            },
+            {
+                "title": "Twitter",
+                "description": "😺 I retweet too many cats 😺",
+                "href": "https://twitter.igtampe.com",
+                "icon": "material:twitter"
+            },
+            {
+                "title": "linkedIn",
+                "description": "See more of my professional history!",
+                "href": "https://linkedin.igtampe.com",
+                "icon": "material:linkedin"
+            },
+            {
+                "title": "Resume",
+                "description": "The long and short of all my experience",
+                "href": "/Resume.pdf",
+                "icon": "material:article"
+            }
+        ]
+    }
+]
+
