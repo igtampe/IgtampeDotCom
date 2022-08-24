@@ -27,11 +27,11 @@ export default function Home({
         <Section title='A Curious Kid'>
           <p>
             Since I was a little kid, I always liked looking behind the scenes, seeing what made things tick. I started tinkering with batch files, learning along
-            the way as I saw what I could make. In a few years, I made my own, albeit fake, OS called Igtampe DOS. It was all just a batch file that would pass on
-            commands, but it managed to do a few things I was pretty happy with.
+            the way as I saw what I could make. In a few years, I made my own, albeit fake, OS called <Link href='https://github.com/igtampe/igtampedos'>Igtampe DOS</Link>. 
+            It was all just a batch file that would pass on commands, but it managed to do a few things I was pretty happy with.
           </p>
           <p>
-            Sure, batch wasn't the greatest of programming languages. Its restrictions, however, breeded ingenuity. I'm certain that because I started with it, I
+            Sure, batch wasn't the greatest of programming languages. Its restrictions, however, bred ingenuity. I'm certain that because I started with it, I
             developed a keen ability to problem-solve, using all the tools at my disposal.
           </p>
           <p>
@@ -52,31 +52,30 @@ export default function Home({
           </p>
           <p>
             After learning and making some small projects in it, my big step into C# was an internship with JP Morgan Chase. Since then, I've worked diligently, combining what I 
-            learned there, what I've learned on my own, building projects like <Link href='/programs/clothespin'>Clothespin</Link> and <Link href='/programs/neco'>Neco</Link>, and 
-            what I've learned on my Software Engineering courses in terms of architecture and design, to become a much more proficient engineer. It was through this that I learned 
-            ReactJS, completing my journey to becoming a full-stack developer.
+            learned there, what I've learned on my own with projects like <Link href='/programs/clothespin'>Clothespin</Link> and <Link href='/programs/neco'>Neco</Link>, and 
+            what I've learned in my Software Engineering architecture and design courses. It is thanks to this that I have become a much more proficient engineer. It's also thanks to
+            this that I learned ReactJS, completing my journey to becoming a full-stack developer.
           </p>
         </Section>
         <br/>
         <Section title='Out in the Open Ocean'>
           <p>
-          (Todo write a blurb about how we started our journey off of college)
+            It wasn't long after this internship, that I set sail. By the next summer, I completed college. It's an odd feeling to leave your homeland behind, but I decided to go forth
+            to the open ocean (or well, the mainland US). Now in Delaware, I've begun my professional career as a Software Engineer. Now with more responsibilities, I assume my time of
+            writing personal projects will be a lot more limited. Still, I try to make a few projects on the side. Most notably on the horizon is IRED/IDACRA, a class library containing
+            a bunch of common classes, interfaces, and utilities for my ASP.NET web development.  
           </p>
-        </Section>
-        <br/>
-        <Section title='Seeking the Next Challenge'>
           <p>
-            There's always something to code, in my opinion. I love making small little programs just to practice my skills, or to find out how I could make things work. My projects may 
-            be small in the grand scheme of things, but they fuel my desire to learn, and to grow as a programmer. In short, I love to challenge myself with new tasks. I'd love to be a 
-            part of something much greater. Perhaps I'll make another jump to another programming language, perhaps I'll continue to code great things in what I'm used to. Regardless, 
-            I'm excited for my future as a software engineer, and hope to bring my skills and my knowledge to wherever they are needed.
+            In terms of the rest of our journey, however, we'll have to see. Maybe I'll move somewhere else in the US. Maybe I'll get a remote job and work out of a small town. Maybe I'll
+            bite the bullet and move to a big city. I just hope there's always something to code, some new challenge to overcome, some new way to help people out through programming. I'm 
+            excited for my future as a professional software engineer, and hope to bring my skills and my knowledge to wherever they are needed.
           </p>
         </Section>
       </ElevatedSection>
       <ElevatedSection>
         <div style={{textAlign:'right'}}>
           <p>
-            Find out more of my professional life on my resume, <br/>available at my <Link href="linkedin.igtampe.com">LinkedIn</Link>
+            Find out more of my professional life on my resume, available at my <Link href="linkedin.igtampe.com">LinkedIn</Link>
           </p>
         </div>
       </ElevatedSection>

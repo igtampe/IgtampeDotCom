@@ -1,14 +1,14 @@
 [
     {
         "name":"Visual Basic Economy (ViBE)",
-        "desc":"ViBE has been a massive project, which has several subprograms. All of which are designed for a tiny model nation I run.",
+        "desc":"ViBE has been a massive project, which has several subprograms. All of which are designed for the UMS",
         "site":"",
         "git":"https://github.com/igtampe/ViBE",
         "imgSrc":"https://repository-images.githubusercontent.com/183323999/edc2df00-5f38-11ea-936e-8a98db5c21ea",
         "link":"vibe"
     },{
         "name":".NET Economy (Neco)",
-        "desc":"Neco is the next iteration of ViBE. Reworked from the ground up to use a database and other proper industry tools, and unified access through an SPA",
+        "desc":"Neco is the next iteration of ViBE. Reworked from the ground up to use a database and other proper industry tools, all accessible through an SPA",
         "site":"https://neco.igtampe.com",
         "git":"https://github.com/igtampe/neco",
         "imgSrc":"https://repository-images.githubusercontent.com/399487679/84fabee2-320a-4830-bae1-010884999143",
@@ -29,7 +29,7 @@
         "link":"atlas"
     },{
         "name":"IRED/IDACRA",
-        "desc":"IRED/IDACRA is a set of class libraries to speed up the development of ASP.NET backends. Currently a work in progress",
+        "desc":"IRED/IDACRA is a set of class libraries designed to speed up the development of ASP.NET backends. Currently a work in progress",
         "site":"",
         "git":"https://github.com/igtampe/Igtampe.Redistributables",
         "imgSrc":"https://repository-images.githubusercontent.com/521361497/c6e7c63f-4f45-4ee5-b050-599c6251a3e6",
@@ -38,7 +38,7 @@
         "name":"INSO Projects",
         "desc":"As part of becoming a Software Engineer, we've designed several apps in large teams, with various technologies",
         "site":"",
-        "git":"https://github.com/igtampe/ViBE",
+        "git":"https://github.com/Class-Track",
         "imgSrc":"/images/programs/classtrack/classtrack.png",
         "link":"inso"
     }
