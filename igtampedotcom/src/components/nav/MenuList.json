@@ -52,6 +52,12 @@
                 "description": "Projects as part of INSO (Software Engineering) classes",
                 "href": "/Programs/INSO",
                 "icon": "material:construction"
+            },
+            {
+                "title": "Java",
+                "description": "Java personal and class projects",
+                "href": "/Programs/Java",
+                "icon": "/icons/java.png"
             }
         ]
     },
@@ -59,6 +65,12 @@
         "title": "",
         "menu": true,
         "menuItems": [
+            {
+                "title": "UMSWEB",
+                "description": "The old SSH server",
+                "href": "/Programs/UMSWeb",
+                "icon": "/icons/umsweb.ico"
+            },
             {
                 "title": "PSG",
                 "description": "A patient consult tracker and billing manager",
@@ -96,10 +108,10 @@
                 "icon": "/icons/airportboard.ico"
             },
             {
-                "title": "Java",
-                "description": "Java personal and class projects",
-                "href": "/Programs/Java",
-                "icon": "/icons/java.png"
+                "title": "Batch",
+                "description": "An homage to my younger self",
+                "href": "/Programs/Batch",
+                "icon": "/icons/batch.ico"
             }
         ]
     },
