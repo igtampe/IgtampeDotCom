@@ -1,0 +1,194 @@
+{
+    "latest":26,
+    "data":[
+        {
+            "index":0,
+            "name":"Disgusted IGT",
+            "alt":"A real life image of Chopo, with a disgusted expression",
+            "description":"The original image for Disgusted Cho, at the time known as Disgusted IGT (from Igtampe)",
+            "date":"6/1/2017"
+        },
+        {
+            "index":1,
+            "name":"Disgusted Cho",
+            "alt":"Cho with a disgusted expression",
+            "description":"Chopo (at the time only Cho) with a disgusted expression. The first \"Badly Drawn\" profile picture, and the start of the Nexus profile picture tradition",
+            "date":"8/19/2017"
+        },
+        {
+            "index":2,
+            "name":"Disgusting Chopo",
+            "alt":"Pixelated chopo yelling",
+            "description":"The debut of the Chopo identity, yelling, and looking disgusting (as opposed to disgusted)",
+            "date":"11/21/2017"
+        },
+        {
+            "index":3,
+            "name":"Bearded Chopo",
+            "alt":"Pixelated, beared Chopo with a happy expression",
+            "description":"The debut of the modern Chopo identity, now strutting a beard for the first time",
+            "date":"1/7/2018"
+        },
+        {
+            "index":4,
+            "name":"Lab Chopo",
+            "alt":"Pixelated Chopo with lab safety glasses",
+            "description":"Pixelated Chopo with lab safety glasses",
+            "date":"2/3/2018"
+        },
+        {
+            "index":5,
+            "name":"Desperate Chopo",
+            "alt":"Pixelated chopo looking desperate with a coffee cup",
+            "description":"Chopo with a coffee cup, looking desperate. This is the first fully colored \"Badly Drawn\" profile picture",
+            "date":"3/19/2018"
+        },
+        {
+            "index":6,
+            "name":"Quiet Chopo",
+            "alt":"A shy chopo in front of an abstract background",
+            "description":"Chopo with a shy expression, standing in front of an abstract background. This is the first larger sized \"Badly Drawn\" Profile picture",
+            "date":"3/21/2018"
+        },
+        {
+            "index":7,
+            "name":"Cool Chopo",
+            "alt":"Chopo in sunglasses in front of a pixelated city",
+            "description":"Chopo in sunglasses looking \"cool\" in front of a pixelated city. This is the first non-abstract or flat backgrounded \"Badly Drawn\" Profile picture",
+            "date":"6/28/2018"
+        },
+        {
+            "index":8,
+            "name":"Cosmic Chopo",
+            "alt":"Chopo overlooking a galaxy",
+            "description":"Chopo appearing as a cosmic figure. A short lived generation which didn't come out well",
+            "date":"9/8/2018"
+        },
+        {
+            "index":9,
+            "name":"Criminal Chopo",
+            "alt":"Chopo with a smug expression in the middle of a street",
+            "description":"Chopo in a street, looking smug. This was part of the Pinecastle profile picture theme, in which members of Nexus portrayed themselves as part of a mafia-like mob. It was also the first profile picture to challenge the \"Badly Drawn\" monacre",
+            "date":"10/13/2018"
+        },
+        {
+            "index":10,
+            "name":"Disgusted Chopo",
+            "alt":"Chopo with a disgusted expression",
+            "description":"A higher quality redraw of Disgusted Cho, the original \"Badly Drawn\" profile pictures",
+            "date":"10/17/2018"
+        },
+        {
+            "index":11,
+            "name":"Natural Chopo",
+            "alt":"Chopo in front of evergreen trees",
+            "description":"Chopo in front of evergreen trees, taken in West Virginia",
+            "date":"1/20/2019"
+        },
+        {
+            "index":12,
+            "name":"Programmer Chopo",
+            "alt":"Chopo in front of code",
+            "description":"Chopo in front of the source code for ViBE",
+            "date":"3/4/2019"
+        },
+        {
+            "index":13,
+            "name":"Congressman Chopo",
+            "alt":"Chopo in a suit and tie with the US Congress in the background",
+            "description":"Chopo in a suit and tie, with the US Congress in the background. This was done as part of a campaign for the UMS Congress",
+            "date":"5/12/2019"
+        },
+        {
+            "index":14,
+            "name":"Subway Chopo",
+            "alt":"Chopo in a subway station",
+            "description":"Chopo in a subway station in Santiago Chile",
+            "date":"7/4/2019"
+        },
+        {
+            "index":15,
+            "name":"Scooter Chopo",
+            "alt":"Chopo in a helmet",
+            "description":"Chopo in a helmet in a street in Mayaguez",
+            "date":"9/27/2019"
+        },
+        {
+            "index":16,
+            "name":"Explorer Chopo",
+            "alt":"Chopo in an empty airport terminal",
+            "description":"Chopo in SJU's Terminal D before its renovation, empty, and still showing original styling from American's tenure",
+            "date":"11/14/2019"
+        },
+        {
+            "index":17,
+            "name":"Winter Chopo",
+            "alt":"Chopo on a rooftop, bare winter trees in the background",
+            "description":"Chopo in a rooftop, a wintery landscape in the background",
+            "date":"1/10/2020"
+        },
+        {
+            "index":18,
+            "name":"Quarantining Chopo",
+            "alt":"Chopo in a plain shirt with a suburban skyline in the background",
+            "description":"Chopo quarantining early into the pandemic in his home, a suburban skyline in the background",
+            "date":"4/5/2020"
+        },
+        {
+            "index":19,
+            "name":"Rooftop Chopo",
+            "alt":"Profile of Chopo",
+            "description":"Chopo on a rooftop, a faint sunset in the background",
+            "date":"5/15/2020"
+        },
+        {
+            "index":20,
+            "name":"Fabulous Chopo",
+            "alt":"Chopo with round sunglasses in front of an image of a sunset",
+            "description":"Chopo with his round sunglasses, in front of a sunset",
+            "date":"8/26/2020"
+        },
+        {
+            "index":21,
+            "name":"Proffessor Chopo",
+            "alt":"Chopo in front of a large college auditorium",
+            "description":"Chopo in front of auditorium F-C in the University of PR Mayaguez's physics building",
+            "date":"12/12/2020"
+        },
+        {
+            "index":22,
+            "name":"Conductor Chopo",
+            "alt":"Chopo in black and white in front of a train station",
+            "description":"Chopo in black and white, in a conductor's hat, in front of a large victorian era train station",
+            "date":"4/2/2021"
+        },
+        {
+            "index":23,
+            "name":"Cowboy Chopo",
+            "alt":"Chopo in a field with a large cowboy hat",
+            "description":"Chopo in Texas, wearing a large cowboy hat in front of a large open field",
+            "date":"6/6/2021"
+        },
+        {
+            "index":24,
+            "name":"Construction Chopo",
+            "alt":"Chopo in a high vis vest in a subway station",
+            "description":"Chopo in a high visibility vest, standing in Forest Glenn station in the DC Metro, one of the deepest subway stations in the western hemisphere",
+            "date":"8/15/2021"
+        },
+        {
+            "index":25,
+            "name":"Oceanside Chopo",
+            "alt":"Chopo in a white jacket by a coastline",
+            "description":"Chopo by the coast of Condado, sporting a white jacket and his strawberry shirt",
+            "date":"11/14/2021"
+        },
+        {
+            "index":26,
+            "name":"Valley Chopo",
+            "alt":"Chopo overlooking a large wooded valley",
+            "description":"Chopo near the Pensylvania Grand Canyon",
+            "date":"7/27/2022"
+        }
+    ]
+}
