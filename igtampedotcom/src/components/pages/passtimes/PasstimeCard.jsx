@@ -7,7 +7,7 @@ export default function PasstimeCard({
     imgSrc=''
 }){
 
-    return(<ImageCard title={name} imgSrc={imgSrc} href={`/passtime/${link}`}>
+    return(<ImageCard title={name} imgSrc={imgSrc} href={`/passtimes/${link}`}>
         <p>{children}</p>
     </ImageCard>)
 
