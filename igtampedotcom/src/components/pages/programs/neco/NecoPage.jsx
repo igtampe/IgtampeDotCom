@@ -1,3 +1,4 @@
+import { Link } from "@mui/material";
 import ElevatedSection from "../../../section/ElevatedSection";
 import ImageGallerySection from "../../../section/ImageGallery";
 import ImageSection from "../../../section/ImageSection";
@@ -17,7 +18,7 @@ export default function NecoPage({
         </ImageSection>
         <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/neco/db.png" >
             <ElevatedSection title="Breaking from TEBECON">
-                Neco completely breaks with the Tebecon standard. Instead of storing data on separate files and folders, Neco stores all data in
+                Neco completely breaks with the <Link href='/programs/umsweb'>Tebecon</Link> standard. Instead of storing data on separate files and folders, Neco stores all data in
                 a PostgreSQL Database. This brings drastic flexibility improvements in what we store, what services we use to host it and the backend,
                 and how we access it. It also allows us to do more with the data, like getting statistics, and more dynamic linking between bits of information.
             </ElevatedSection>

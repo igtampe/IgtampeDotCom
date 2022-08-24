@@ -14,7 +14,7 @@ export default function VibePage({
         <ImageSection title="A Simple Virtual Economy" imgSrc="/images/programs/vibe/main.png" Vertical={Vertical} />
         <ElevatedSection>
             ViBE was designed with one thing in mind: Simplicity. Before this, users of the UMS's virtual economy had to connect
-            to an SSH Terminal to handle their transactions. That simply didn't cut it. As soon as I learned about VBA, I committed
+            to an <Link href='/programs/umsweb'>SSH Terminal</Link> to handle their transactions. That simply didn't cut it. As soon as I learned about VBA, I committed
             towards building a simpler replacement. The result was ViBE, a simple, but intuitive Virtual Economy program, that ran
             the economy of the <Link href='/passtimes/ums'>UMS</Link>.
         </ElevatedSection>
