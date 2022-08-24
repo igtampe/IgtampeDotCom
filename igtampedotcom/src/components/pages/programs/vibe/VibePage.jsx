@@ -13,7 +13,7 @@ export default function VibePage({
         <ProgramHeader name="Visual Basic Economy (ViBE)" git="https://github.com/igtampe/ViBE" />
         <ImageSection title="A Simple Virtual Economy" imgSrc="/images/programs/vibe/main.png" Vertical={Vertical} />
         <ElevatedSection>
-            ViBE is designed with one thing in mind: Simplicity. Before this, users of the UMS's virtual economy had to connect
+            ViBE was designed with one thing in mind: Simplicity. Before this, users of the UMS's virtual economy had to connect
             to an SSH Terminal to handle their transactions. That simply didn't cut it. As soon as I learned about VBA, I committed
             towards building a simpler replacement. The result was ViBE, a simple, but intuitive Virtual Economy program, that ran
             the economy of the <Link href='/passtimes/ums'>UMS</Link>.
@@ -23,7 +23,7 @@ export default function VibePage({
             <div style={{margin:'10px'}}></div>
             <Section title="Constantly Evolving">
                 ViBE and its services were constantly evolving. I was always excited to see what else I can add to make the user 
-                experience better and better. Near the end of its lifespan, Income reporting via the subprogram, EzTax, received 
+                experience better. Near the end of its lifespan, Income reporting via EzTax (A subprogram of ViBE), received 
                 the ability to upload files to the ViBE Server. This is accomplished using <Link href='https://github.com/igtampe/lbl-sender'>LBL</Link>{' '}
                 (or Line by Line), a tiny file transfer protocol I made that fits neatly within the <Link href='/programs/smokesignal'>SmokeSignal</Link>{' '}
                 framework. Speaking of which...
