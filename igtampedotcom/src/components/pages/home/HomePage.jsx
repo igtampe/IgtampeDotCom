@@ -27,7 +27,7 @@ export default function Home({
         <Section title='A Curious Kid'>
           <p>
             Since I was a little kid, I always liked looking behind the scenes, seeing what made things tick. I started tinkering with batch files, learning along
-            the way as I saw what I could make. In a few years, I made my own, albeit fake, OS called <Link href='https://github.com/igtampe/igtampedos'>Igtampe DOS</Link>. 
+            the way as I saw what I could make. In a few years, I made my own, albeit fake, OS called <Link href='/programs/batch'>Igtampe DOS</Link>. 
             It was all just a batch file that would pass on commands, but it managed to do a few things I was pretty happy with.
           </p>
           <p>
