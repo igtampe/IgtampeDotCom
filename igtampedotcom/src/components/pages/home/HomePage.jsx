@@ -5,7 +5,7 @@ import Section from "../../section/Section";
 import ProgramCard from "../programs/ProgramCard";
 import ProgramsList from './ProgramsList.json'
 import EndeavorsList from './EndeavorsList.json'
-import EndeavorCard from "../endeavors/EndevaorCard";
+import EndeavorCard from "../endeavors/EndeavorCard";
 import PasstimesList from './PasstimesList.json'
 import PasstimeCard from "../passtimes/PasstimeCard";
 

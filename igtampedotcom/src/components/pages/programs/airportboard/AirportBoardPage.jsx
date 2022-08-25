@@ -27,7 +27,7 @@ export default function AirportBoardPage({
         <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/airportboard/abwriter.png" big>
             <ElevatedSection title='Bundled with Tools'>
                 <p>Included with the AirportBoard releases I've made, is <Link href='https://github.com/igtampe/abwriter'>ABWriter</Link>. 
-                    It's an IDE of sorts, which helps building ABScirpt files, and even lets you preview files, given you have 
+                    It's an IDE of sorts, which helps building ABScript files, and even lets you preview files, given you have 
                     AirportBoard in the same directory of the file you're editing.</p>
 
                 <p>Along with this is Henja2, an editor for DrawFiles (DFs) which help in creating the graphics used by 

@@ -51,7 +51,7 @@ export default function SwitchboardPage({
 
         <ImageSideSection Vertical={Vertical} imgSrc="/images/programs/switchboard/colloquor.png" big>
             <ElevatedSection title='Just as Extensible'>
-                Built on our knowledge from Smokesignal and Secuquor, Swithcboard easily allows the integration of Switchboard Extensions, all of which
+                Built on our knowledge from Smokesignal and Secuquor, Switchboard easily allows the integration of Switchboard Extensions, all of which
                 manageable through the same settings window.
 
                 <p>Aside from the new virtual settings function, the Switchboard Extension abstract class is very similar to a SmokeSignal extension. 
