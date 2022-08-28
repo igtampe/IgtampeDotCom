@@ -23,7 +23,7 @@
     },{
         "name":"Atlas",
         "desc":"Atlas is a simple wiki app using a markdown-like syntax currently used to power the UMS Wiki",
-        "site":"https://umswiki.herokuapp.com",
+        "site":"https://umswiki.igtampe.com",
         "git":"https://github.com/igtampe/Atlas",
         "imgSrc":"https://repository-images.githubusercontent.com/472542854/eed93ac4-1c40-4a86-81cc-95caf205b70f",
         "link":"atlas"
