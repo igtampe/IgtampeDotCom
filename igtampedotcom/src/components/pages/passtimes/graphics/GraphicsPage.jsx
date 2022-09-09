@@ -19,14 +19,11 @@ export default function GraphicsPage({
         <ProgramHeader name='Graphics' />
         <ImageSideSection right imgSrc="/logos/Solaris.png">
             <ElevatedSection title='Logos Galore'>
-                Simple and effective
-            </ElevatedSection>
-        </ImageSideSection>
-        <ElevatedSection>
             As part of creating programs as full products, and as part of <Link href='/passtimes/ums'>The UMS's</Link> model economy
             and its corporations, we've made several logos and assets/branding relating to them. Armed only with Paint.NET and a few
             fonts, I think they've generally come out decent.  are a few examples of what we've come up with.
-        </ElevatedSection>
+            </ElevatedSection>
+        </ImageSideSection>
 
         <Grid container spacing={3}>
             <Grid item xs={Vertical? 12 : 3}><ImageCard imgSrc='/logos/ClassTrack.png'><Subtitle>ClassTrack, a Capstone curriculum tracking project</Subtitle></ImageCard></Grid>
