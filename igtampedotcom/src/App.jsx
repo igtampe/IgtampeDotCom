@@ -1,6 +1,6 @@
 import './App.css'
 import useWindowDimensions from './hooks/useWindowDimensions';
-import { Route } from 'react-router';
+import { Route, Switch } from 'react-router';
 import { Container, createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import Home from './components/pages/home/HomePage';
 import Header from './components/header/Header';
@@ -28,6 +28,7 @@ import PhotosPage from './components/pages/passtimes/photos/PhotosPage';
 import VideosPage from './components/pages/passtimes/videos/VideosPage';
 import UMSWebPage from './components/pages/programs/umsweb/UMSWebPage';
 import BatchPage from './components/pages/programs/batch/BatchPage';
+import NotFoundPage from './components/pages/notfound/NotFoundPage';
 
 export default function App() {
 
@@ -51,6 +52,7 @@ export default function App() {
 
         <div style={{paddingTop:'20px', textAlign:'left'}}>
 
+        <Switch>
         {/* The routes */}
 
         <Route exact path='/'><Home Vertical={Vertical}/></Route>
@@ -86,6 +88,11 @@ export default function App() {
         <Route exact path='/Passtimes/Photos'><PhotosPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/Videos'><VideosPage Vertical={Vertical}/></Route>
 
+        {/* The 404 Page */}
+        
+        <Route path="*"><NotFoundPage Vertical={Vertical}/></Route>
+
+        </Switch>
         </div>
         
         
