@@ -3,70 +3,60 @@
         "file":"20200104_192428.jpg",
         "name":"Metro Center Station",
         "description":"The DC Metro's Metro Center station",
-        "date":"1/4/2020",
-        "cropdata":{}
+        "date":"1/4/2020"
     },
     {
         "file":"20210724_150435.jpg",
         "name":"Metro Center Station from Above",
         "description":"The DC Metro's Metro Center station from an overhead bridge",
-        "date":"7/24/2021",
-        "cropdata":{}
+        "date":"7/24/2021"
     },
     {
         "file":"20210801_123639.jpg",
         "name":"Forest Glenn Station",
         "description":"The DC Metro's Forest Glenn Station, one of the deepest stations in the western hemisphere at over 200ft underground",
-        "date":"8/1/2021",
-        "cropdata":{}
+        "date":"8/1/2021"
     },
     {
         "file":"20210801_135604.jpg",
         "name":"Roslyn Station Escalators",
-        "description":"The escalators for ther DC Metro's Roslyn station",
-        "date":"8/1/2021",
-        "cropdata":{}
+        "description":"The escalators for their DC Metro's Roslyn station",
+        "date":"8/1/2021"
     },
     {
         "file":"20210830_192409.jpg",
         "name":"Departures",
-        "description":"A busy evening at the busiest airport in the world: Hartsfield Jackon Atlanta International Airport",
-        "date":"8/30/2021",
-        "cropdata":{}
+        "description":"A busy evening at the busiest airport in the world: Hartsfield Jackson Atlanta International Airport",
+        "date":"8/30/2021"
     },
     {
         "file":"20211104_141728.jpg",
-        "name":"Attention Kmart Shopppers",
+        "name":"Attention Kmart Shoppers",
         "description":"A not so busy afternoon at the last remaining Kmart in Puerto Rico",
-        "date":"11/4/2021",
-        "cropdata":{}
+        "date":"11/4/2021"
     },
     {
         "file":"20211127_155910.jpg",
         "name":"Step Back! Doors closing...",
         "description":"A lonely train ride on the DC Metro on train car 2012, part of the 2000 series from the early 80s",
-        "date":"11/27/2021",
-        "cropdata":{}
+        "date":"11/27/2021"
     },
     {
         "file":"20211202_150242.jpg",
         "name":"Rio Piedras Station",
         "description":"The Tren Urbano's Rio Piedras station right before the rush of school students making their way home",
-        "date":"12/02/2021",
-        "cropdata":{}
+        "date":"12/02/2021"
     },
     {
         "file":"20220708_144232.jpg",
         "name":"Gallery Place Chinatown Station",
         "description":"The DC Metro's Gallery Place Chinatown station as a 2000 series train from the early 80s",
-        "date":"7/8/2022",
-        "cropdata":{}
+        "date":"7/8/2022"
     },
     {
         "file":"20220713_121503.jpg",
         "name":"The Train Museum",
-        "description":"A wide shot of the train cars at the Railroad Museum of Pensylvania",
-        "date":"7/13/2022",
-        "cropdata":{}
+        "description":"A wide shot of the train cars at the Railroad Museum of Pennsylvania",
+        "date":"7/13/2022"
     }
 ]
