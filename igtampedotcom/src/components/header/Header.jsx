@@ -90,7 +90,7 @@ export default function Header({
             .then(response => response.json())
             .then(data => {
                 console.log('Fetched!')
-                //data should be an array with lenght. Select a random one
+                //data should be an array with length. Select a random one
                 var img = data[getRandomInt(data.length)]
 
                 //ok we should now have a random image.
