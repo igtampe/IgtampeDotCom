@@ -2,11 +2,11 @@ import { Card, Divider, Link, Typography } from "@mui/material";
 
 
 export default function ImageCard({
-    imgSrc = '', title = '', children, href = ""
+    imgSrc = '', title = '', children, href = "", elevation=1
 }) {
 
     return (
-        <Card>
+        <Card elevation={elevation}>
             {
                 href === ""
                     ? <img style={{ width: '100%', height: '100%', maxHeight: '200px', objectFit: 'cover' }} src={imgSrc} />
