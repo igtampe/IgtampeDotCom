@@ -17,7 +17,7 @@ export default function GraphicsPage({
 
     return (<>
         <ProgramHeader name='Graphics' />
-        <ImageSideSection right imgSrc="/logos/Solaris.png">
+        <ImageSideSection Vertical = {Vertical} right imgSrc="/logos/Solaris.png">
             <ElevatedSection title='Logos Galore'>
             As part of creating programs as full products, and as part of <Link href='/passtimes/ums'>The UMS's</Link> model economy
             and its corporations, we've made several logos and assets/branding relating to them. Armed only with Paint.NET and a few
