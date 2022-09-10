@@ -9,15 +9,16 @@ export default function HeaderModal({
         "description":"",
         "date":"",
         "collection":"",
-        "cropdata":{}
     }
 }) {
 
     return(
-        <Dialog open={open} maxWidth='sm' fullWidth onClose={()=>{setOpen(false)}}>
+        <Dialog open={open} maxWidth='md' fullWidth onClose={()=>{setOpen(false)}}>
             <DialogContent>
                 <div style={{textAlign:'center'}}>
-                    <img src={`/headers/${image.collection}/${image.file}`} width='100%'/>
+                    <a href={`/headers/${image.collection}/${image.file}`} target="_blank" rel="noreferrer noopener">
+                        <img src={`/headers/${image.collection}/${image.file}`} width='100%'/>
+                    </a>
                 </div>
                 <hr/>
                 <div style={{textAlign:'center'}}>
