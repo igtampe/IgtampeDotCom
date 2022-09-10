@@ -138,12 +138,6 @@
         "menu": true,
         "menuItems": [
             {
-                "title": "Nexus",
-                "description": "The Nexus Discord Server",
-                "href": "/Passtimes/Nexus",
-                "icon": "/icons/nexus.jpg"
-            },
-            {
                 "title": "UMS",
                 "description": "The Ultra Modern Sector model nation and government",
                 "href": "/Passtimes/UMS",

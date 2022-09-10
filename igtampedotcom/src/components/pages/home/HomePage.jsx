@@ -112,7 +112,7 @@ export default function Home({
       <Grid container spacing={3} style={{marginTop:'5px'}}>
         {
           PasstimesList.map(a=>(
-            <Grid item xs={Vertical ? 12 : 2.4}> <PasstimeCard name={a.name} imgSrc={a.imgSrc} link={a.link}>
+            <Grid item xs={Vertical ? 12 : 3}> <PasstimeCard name={a.name} imgSrc={a.imgSrc} link={a.link}>
               {a.desc}
           </PasstimeCard> </Grid>
           ))

@@ -1,10 +1,5 @@
 [
     {
-        "name":"Nexus",
-        "desc":"A tiny, yet tight knit community of people with a rich culture since 2017",
-        "imgSrc":"/icons/nexus.jpg",
-        "link":"nexus"
-    },{
         "name":"The UMS",
         "desc":"A tiny model nation and its Minecraft server once run with the people of Nexus",
         "imgSrc":"/icons/ums.png",

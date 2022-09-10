@@ -22,7 +22,6 @@ import AirportBoardPage from './components/pages/programs/airportboard/AirportBo
 import JavaPage from './components/pages/programs/java/JavaPage';
 import OmtatPage from './components/pages/endeavors/omtat/OmtatPage';
 import ArelecPage from './components/pages/endeavors/arelec/ArelecPage';
-import NexusPage from './components/pages/passtimes/nexus/NexusPage';
 import UMSPage from './components/pages/passtimes/ums/UMSPage';
 import GraphicsPage from './components/pages/passtimes/graphics/GraphicsPage';
 import PhotosPage from './components/pages/passtimes/photos/PhotosPage';
@@ -82,7 +81,6 @@ export default function App() {
 
         {/* Passtimes */}
 
-        <Route exact path='/Passtimes/Nexus'><NexusPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/UMS'><UMSPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/Graphics'><GraphicsPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/Photos'><PhotosPage Vertical={Vertical}/></Route>
