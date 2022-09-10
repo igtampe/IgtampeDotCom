@@ -108,10 +108,10 @@
                 "icon": "/icons/airportboard.ico"
             },
             {
-                "title": "Batch",
+                "title": "Igtampe DOS",
                 "description": "An homage to my younger self",
-                "href": "/Programs/Batch",
-                "icon": "/icons/batch.ico"
+                "href": "/Programs/IgtDos",
+                "icon": "/icons/igtdos.png"
             }
         ]
     },

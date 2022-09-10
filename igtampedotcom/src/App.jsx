@@ -27,7 +27,7 @@ import GraphicsPage from './components/pages/passtimes/graphics/GraphicsPage';
 import PhotosPage from './components/pages/passtimes/photos/PhotosPage';
 import VideosPage from './components/pages/passtimes/videos/VideosPage';
 import UMSWebPage from './components/pages/programs/umsweb/UMSWebPage';
-import BatchPage from './components/pages/programs/batch/BatchPage';
+import IgtampeDosPage from './components/pages/programs/igtampedos/IgtampeDosPage';
 import NotFoundPage from './components/pages/notfound/NotFoundPage';
 
 export default function App() {
@@ -74,7 +74,7 @@ export default function App() {
         <Route exact path='/Programs/AirportBoard'><AirportBoardPage Vertical={Vertical}/></Route>
         <Route exact path='/Programs/Java'><JavaPage Vertical={Vertical}/></Route>
         <Route exact path='/Programs/UMSWEB'><UMSWebPage Vertical={Vertical}/></Route>
-        <Route exact path='/Programs/Batch'><BatchPage Vertical={Vertical}/></Route>
+        <Route exact path='/Programs/IgtDos'><IgtampeDosPage Vertical={Vertical}/></Route>
 
         {/* Endeavors */}
 

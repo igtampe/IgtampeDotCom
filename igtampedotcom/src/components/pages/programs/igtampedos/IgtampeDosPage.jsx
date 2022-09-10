@@ -1,4 +1,4 @@
-export default function BatchPage({
+export default function IgtampeDosPage({
     Vertical = false
 }){
 
