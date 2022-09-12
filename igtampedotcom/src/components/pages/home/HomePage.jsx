@@ -72,13 +72,6 @@ export default function Home({
           </p>
         </Section>
       </ElevatedSection>
-      <ElevatedSection>
-        <div style={{textAlign:'right'}}>
-          <p>
-            Find out more of my professional life on my resume, available at my <Link href="linkedin.igtampe.com">LinkedIn</Link>
-          </p>
-        </div>
-      </ElevatedSection>
       <Divider style={{ marginTop: '20px', marginBottom: '20px' }} />
       <ImageSection right Vertical={Vertical} imgSrc="/images/CodeScreenshot.png" title='My Code'>
         <p>I've coded quite a few things. </p>
