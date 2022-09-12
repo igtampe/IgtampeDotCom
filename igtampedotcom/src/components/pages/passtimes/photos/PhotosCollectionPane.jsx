@@ -5,6 +5,7 @@ import ElevatedSection from "../../../section/ElevatedSection";
 import PhotosCollectionImageCard from "./PhotosCollectionImageCard";
 
 export default function PhotosCollectionPane({
+    Vertical = false,
     collection = "",
     name = "",
     children
@@ -48,7 +49,7 @@ export default function PhotosCollectionPane({
                     ? <div style={{ textAlign: 'center' }}><CircularProgress /></div>
                     : <Grid container spacing={2}>
                         {index.map(a => (
-                            <Grid item xs={6}>
+                            <Grid item xs={Vertical ? 12 : 6}>
                                 <PhotosCollectionImageCard collection={collection} image={{collection:collection, ...a}}/>
                             </Grid>
                         ))
