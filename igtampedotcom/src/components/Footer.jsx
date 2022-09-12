@@ -1,14 +1,19 @@
 import { Divider, Typography } from "@mui/material";
+import MenuList from './nav/MenuList.json'
+import { HandleTinyLink } from "./nav/Navbar";
 
 export default function Footer(){
 
-    return(
+  const BottomMenu=MenuList[MenuList.length-1].menuItems;
+  
+  return(
         <>
           <Divider style={{marginTop:'25px', marginBottom:'25px'}}/>
           <Typography textAlign={'center'} color={'gray'} fontSize={'15px'} style={{marginBottom:'5x'}}>
-                ©2022 Igtampe, no rights reserved. 
-                See the <a href='https://www.github.com/igtampe/igtampedotcom' style={{color:"gray"}}>Github</a>
+                ©2022 Igtampe, no rights reserved.<br/>
+                {BottomMenu.map(a=>(<HandleTinyLink link={a}/>))}
           </Typography>
+          <Divider style={{marginTop:'25px', marginBottom:'25px'}}/>
         </>
       )
     

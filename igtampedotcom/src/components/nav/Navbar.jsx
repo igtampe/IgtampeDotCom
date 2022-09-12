@@ -1,11 +1,10 @@
-import { Card, Divider, IconButton, Link, Typography } from "@mui/material";
+import { Card, Divider, IconButton, Link, Tooltip, Typography } from "@mui/material";
 import {
     Home, Construction, MultilineChart,
     Photo, MovieCreation, GitHub, Twitter,
     LinkedIn, Article, ExpandMore
 } from '@mui/icons-material'
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
 import MenuItems from './MenuList.json'
 
 function HandleLink({ link = {
@@ -13,47 +12,6 @@ function HandleLink({ link = {
     href: '', icon: ''
 }
 }) {
-
-    const history = useHistory()
-
-    const isExternal = link.href.toLowerCase().startsWith('https://') || link.href.toLowerCase().endsWith('.pdf')
-
-    const navto = () => { 
-
-        if(isExternal) {return;}
-
-        history.push(link.href) 
-    }
-
-    const HandleImage = ({ image = "" }) => {
-        if (image.toLowerCase().startsWith('material:')) {
-            //Process the material icon
-            switch (image.toLowerCase().substring(9)) {
-                case 'home':
-                    return (<Home />)
-                case 'construction':
-                    return (<Construction />)
-                case 'multilinechart':
-                    return (<MultilineChart />)
-                case 'photo':
-                    return (<Photo />)
-                case 'moviecreation':
-                    return (<MovieCreation />)
-                case 'github':
-                    return (<GitHub />)
-                case 'twitter':
-                    return (<Twitter />)
-                case 'linkedin':
-                    return (<LinkedIn />)
-                case 'article':
-                    return (<Article />)
-                default:
-                    return (<></>)
-            }
-        } else {
-            return (<img src={image} height='20px' width='20px' />)
-        }
-    }
 
     return (
         <Link title={link.description} href={link.href} style={{ color: 'white' }}><table> <tbody> <tr>
@@ -63,6 +21,52 @@ function HandleLink({ link = {
 
     )
 
+}
+
+export function HandleTinyLink({ link = {
+    title: '', description: '',
+    href: '', icon: ''
+}
+}) {
+
+    return (<>{' '}
+        <Tooltip title={link.title}>
+            <Link title={link.description} href={link.href} style={{ color: 'white' }}>
+                <HandleImage image={link.icon} />
+            </Link>
+        </Tooltip>
+        {' '}</>
+    )
+}
+
+function HandleImage({ image = "" }) {
+    if (image.toLowerCase().startsWith('material:')) {
+        //Process the material icon
+        switch (image.toLowerCase().substring(9)) {
+            case 'home':
+                return (<Home />)
+            case 'construction':
+                return (<Construction />)
+            case 'multilinechart':
+                return (<MultilineChart />)
+            case 'photo':
+                return (<Photo />)
+            case 'moviecreation':
+                return (<MovieCreation />)
+            case 'github':
+                return (<GitHub />)
+            case 'twitter':
+                return (<Twitter />)
+            case 'linkedin':
+                return (<LinkedIn />)
+            case 'article':
+                return (<Article />)
+            default:
+                return (<></>)
+        }
+    } else {
+        return (<img src={image} height='20px' width='20px' />)
+    }
 }
 
 export default function Navbar({
@@ -82,11 +86,11 @@ export default function Navbar({
             href: '/', icon: ''
         }
     }) => {
-        return(<Typography fontFamily={'orbitron'} fontWeight={'200'}>
+        return (<Typography fontFamily={'orbitron'} fontWeight={'200'}>
             {
-                menuItem.link 
-                ? <HandleLink link={menuItem} />
-                : <>{menuItem.title}</>
+                menuItem.link
+                    ? <HandleLink link={menuItem} />
+                    : <>{menuItem.title}</>
             }
         </Typography>)
     }
@@ -123,8 +127,8 @@ export default function Navbar({
                         </>
                         : <>
                             {MenuItems.map(a => (<td width={`${cellwidth}%`}>
-                                <Link style={{color:'white'}} onClick={()=>{
-                                    if(!a.link || menuOpen) {toggleMenuOpen()}
+                                <Link style={{ color: 'white' }} onClick={() => {
+                                    if (!a.link || menuOpen) { toggleMenuOpen() }
                                 }} ><HandleHeader menuItem={a} /></Link>
                             </td>))}
                             <td style={{ textAlign: 'right' }} width={`${cellwidth}%`}>
@@ -137,17 +141,17 @@ export default function Navbar({
                 <tbody>
                     {Vertical
                         ? <>
-                        {MenuItems.map(a => (<tr style={{ verticalAlign: 'top' }}>
+                            {MenuItems.map(a => (<tr style={{ verticalAlign: 'top' }}>
                                 {
-                                    a.title==="" 
-                                    ?<></>
-                                    :<div style={{marginBottom:'20px', marginTop:'20px'}}>
-                                    <HandleHeader menuItem={a}/>
-                                    <Divider/></div>
-                                    
+                                    a.title === ""
+                                        ? <></>
+                                        : <div style={{ marginBottom: '20px', marginTop: '20px' }}>
+                                            <HandleHeader menuItem={a} />
+                                            <Divider /></div>
+
                                 }
                                 <HandleMenuItems menuItem={a} />
-                        </tr>))}</>
+                            </tr>))}</>
                         : <tr>
                             {MenuItems.map(a => (<td style={{ verticalAlign: 'top' }}>
                                 <HandleMenuItems menuItem={a} />
