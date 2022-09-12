@@ -1,5 +1,4 @@
 import { Grid } from "@mui/material";
-import BigImageCard from "../../../imagecard/BigImageCard";
 import ElevatedSection from "../../../section/ElevatedSection";
 import ImageSection from "../../../section/ImageSection";
 import ImageSideSection from "../../../section/ImageSideSection";

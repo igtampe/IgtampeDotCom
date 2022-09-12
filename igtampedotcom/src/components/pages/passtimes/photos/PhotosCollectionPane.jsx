@@ -1,6 +1,5 @@
-import { Button, CircularProgress, Grid } from "@mui/material";
+import { CircularProgress, Grid } from "@mui/material";
 import { useState } from "react";
-import ImageCard from "../../../imagecard/ImageCard";
 import ElevatedSection from "../../../section/ElevatedSection";
 import PhotosCollectionImageCard from "./PhotosCollectionImageCard";
 
@@ -33,13 +32,6 @@ export default function PhotosCollectionPane({
                 setReady(true)
             })
     }
-
-    // {
-    //     "file":"FarmUS15.jpg",
-    //     "name":"A Farm near US-15",
-    //     "description":"A small farm near the rolling hills of the appalachians, and US Route 15, north of Frederick, MD",
-    //     "date":"8/6/2018"
-    // }
 
     return (<>
         <ElevatedSection title={name}>

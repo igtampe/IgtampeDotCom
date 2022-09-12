@@ -1,8 +1,6 @@
-import { Grid } from "@mui/material";
 import { useEffect, useState } from "react";
 import ElevatedSection from "../../../section/ElevatedSection";
 import ImageSection from "../../../section/ImageSection";
-import ImageSideSection from "../../../section/ImageSideSection";
 import Section from "../../../section/Section";
 import ProgramHeader from "../../programs/ProgramHeader";
 import ChopoCard from "./ChopoCard";

@@ -1,4 +1,4 @@
-import { Card, Divider, IconButton, Link, Tooltip, Typography } from "@mui/material";
+import { Card, Divider, IconButton, Link, Typography } from "@mui/material";
 import {
     Home, Construction, MultilineChart,
     Photo, MovieCreation, GitHub, Twitter,

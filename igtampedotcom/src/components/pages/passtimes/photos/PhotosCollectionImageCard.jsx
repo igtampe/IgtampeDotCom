@@ -1,11 +1,6 @@
-import { Button, Link } from "@mui/material";
+import { Button } from "@mui/material";
 import { useState } from "react";
 import HeaderModal from "../../../header/HeaderModal";
-import ElevatedSection from "../../../section/ElevatedSection";
-import ImageSection from "../../../section/ImageSection";
-import ImageSideSection from "../../../section/ImageSideSection";
-import ProgramHeader from "../../programs/ProgramHeader";
-import PhotosCollectionPane from "./PhotosCollectionPane";
 
 export default function PhotosCollectionImageCard({
     image = {

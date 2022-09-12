@@ -1,6 +1,5 @@
 import { Link } from "@mui/material";
 import ElevatedSection from "../../../section/ElevatedSection";
-import ImageGallerySection from "../../../section/ImageGallery";
 import ImageSection from "../../../section/ImageSection";
 import ImageSideSection from "../../../section/ImageSideSection";
 import ProgramHeader from "../ProgramHeader";

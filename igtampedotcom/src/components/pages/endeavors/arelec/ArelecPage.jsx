@@ -1,4 +1,4 @@
-import { Divider, Link } from "@mui/material";
+import { Link } from "@mui/material";
 import ElevatedSection from "../../../section/ElevatedSection";
 import ImageSection from "../../../section/ImageSection";
 import ImageSideSection from "../../../section/ImageSideSection";
