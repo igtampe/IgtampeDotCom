@@ -1,7 +1,8 @@
-import { Button, Dialog, DialogActions, DialogContent, DialogTitle, Typography } from "@mui/material";
+import { Dialog, DialogActions, DialogContent, Link, Typography } from "@mui/material";
 
 export default function HeaderModal({
     open=false,
+    showLink = false,
     setOpen,
     image= {
         "file":"",
@@ -28,6 +29,10 @@ export default function HeaderModal({
                     </i></Typography>
                     <br/>
                     {image.description}
+                    {showLink && <>
+                        <br/>
+                        <Typography sx={{fontSize:12}}>See more photos on the <Link href='/Passtimes/Photos'>photos</Link> page</Typography>
+                    </>}
                 </div>
             </DialogContent>
             <DialogActions>
