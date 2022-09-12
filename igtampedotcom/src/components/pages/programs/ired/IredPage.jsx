@@ -27,13 +27,13 @@ export default function IredPage({
                 </ul>
             </ElevatedSection>
         </ImageSideSection>
-        <ImageSideSection imgSrc="http://localhost:3000/images/programs/neco/main.png">
+        <ImageSideSection Vertical={Vertical} imgSrc="http://localhost:3000/images/programs/neco/main.png">
             <ElevatedSection title="Trusted Base">
                 IRED/IDACRA is based on practices and tools that have been in development since Neco, and continue to power it, Atlas, and other minor projects.
                 Their reusability and adaptability have only been accentuated with their release as NuGet packages available now!
             </ElevatedSection>
         </ImageSideSection>
-        <ImageSideSection right big imgSrc="https://raw.githubusercontent.com/igtampe/Igtampe.Redistributables/master/Images/toffee_server.png">
+        <ImageSideSection Vertical={Vertical} right big imgSrc="https://raw.githubusercontent.com/igtampe/Igtampe.Redistributables/master/Images/toffee_server.png">
             <ElevatedSection title="Ready for anything">
                 IRED/IDACRA has been built for the future, with highly configurable, highly generic, but highly useful implementations that make it easy to add
                 your code on top. Focus on your vision, we'll handle the rest.
