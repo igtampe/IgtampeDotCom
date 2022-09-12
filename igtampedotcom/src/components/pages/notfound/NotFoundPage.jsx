@@ -1,8 +1,13 @@
 import { Card, CardContent, Divider, Grid, Typography } from "@mui/material";
+import { useEffect } from "react";
 
 export default function NotFoundPage({
     Vertical = false
 }) {
+
+    useEffect(() => {
+        document.title = "Ignacio Tampe - 404"
+      });    
 
     return (<Grid container spacing={0} direction="column" alignItems="center" justifyContent="center" style={{ minHeight: '50vh' }}>
         <Grid item xs={12} style={Vertical ? { width: '100%' } : { width: '75%', maxWidth: '800px' }}>

@@ -1,11 +1,16 @@
 import { GitHub, Public } from "@mui/icons-material";
 import { Card, Divider, Link, Typography } from "@mui/material";
+import { useEffect } from "react";
 
 export default function ProgramHeader({
     name='',
     site='',
     git=""
 }){
+
+    useEffect(() => {
+        document.title = "Ignacio Tampe - " + name;
+      });    
 
     return(
         <Card style={{padding:'20px', marginBottom:'20px'}}>
