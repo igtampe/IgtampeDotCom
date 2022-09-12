@@ -29,6 +29,7 @@ import VideosPage from './components/pages/passtimes/videos/VideosPage';
 import UMSWebPage from './components/pages/programs/umsweb/UMSWebPage';
 import IgtampeDosPage from './components/pages/programs/igtampedos/IgtampeDosPage';
 import NotFoundPage from './components/pages/notfound/NotFoundPage';
+import ChopoPage from './components/pages/passtimes/chopo/ChopoPage';
 
 export default function App() {
 
@@ -84,6 +85,7 @@ export default function App() {
         {/* Passtimes */}
 
         <Route exact path='/Passtimes/UMS'><UMSPage Vertical={Vertical}/></Route>
+        <Route exact path='/Passtimes/Chopo'><ChopoPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/Graphics'><GraphicsPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/Photos'><PhotosPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/Videos'><VideosPage Vertical={Vertical}/></Route>
