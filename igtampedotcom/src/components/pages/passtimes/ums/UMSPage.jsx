@@ -52,7 +52,7 @@ export default function UMSPage({
                 The three major banking institutions of the UMS, Riverside Financial, G-Bank, and not least the UMS National Bank (UMSNB) saw three different
                 generations of applications, each representing a different era of my own programming knowledge. From our late years working in Batch, where we
                 took things to the limit with <Link href='/Programs/UMSWEB'>TEBECON</Link>, to our first foray into networking and GUI development
-                with <Link href='/Programs/UMSWEB'>ViBE</Link>, and eventually our next steps into industry standard tools and practices
+                with <Link href='/Programs/ViBE'>ViBE</Link>, and eventually our next steps into industry standard tools and practices
                 with <Link href='/Programs/Neco'>Neco</Link>.
             </ElevatedSection>
         </ImageSideSection>
