@@ -2,7 +2,7 @@ import { Card, IconButton, Paper, Tooltip, Typography } from "@mui/material";
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import React, { useState } from "react";
 import HeaderModal from "./HeaderModal";
-import ChopoProfile from "../ChopoProfile";
+import ChopoProfile from "../chopo/ChopoProfile";
 
 function HeaderGreeting() {
 
@@ -141,7 +141,7 @@ export default function Header({
 
     return (
         <div style={{ marginBottom: '15px', position: 'relative' }}>
-            <HeaderModal open={detailsOpen} setOpen={setDetailsOpen} image={image} key={image.file} />
+            <HeaderModal open={detailsOpen} setOpen={setDetailsOpen} image={image} key={image.file} showLink/>
             <img src={ready ? src : '/headers/placeholder.jpg'} alt={ready ? image.name : 'Getting...'} width='100%' /><br />
             {!Vertical && <>
                 <div style={{ position: 'absolute', bottom: '10%', left: '16px', textShadow: '2px 2px 8px #000000' }}>
