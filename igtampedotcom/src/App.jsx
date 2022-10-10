@@ -30,6 +30,7 @@ import UMSWebPage from './components/pages/programs/umsweb/UMSWebPage';
 import IgtampeDosPage from './components/pages/programs/igtampedos/IgtampeDosPage';
 import NotFoundPage from './components/pages/notfound/NotFoundPage';
 import ChopoPage from './components/pages/passtimes/chopo/ChopoPage';
+import AvocadoPage from './components/pages/avocado/AvocadoPage';
 
 export default function App() {
 
@@ -89,6 +90,10 @@ export default function App() {
         <Route exact path='/Passtimes/Graphics'><GraphicsPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/Photos'><PhotosPage Vertical={Vertical}/></Route>
         <Route exact path='/Passtimes/Videos'><VideosPage Vertical={Vertical}/></Route>
+
+        {/* Avocado */}
+        <Route exact path='/Avocado'><AvocadoPage Vertical={Vertical}/></Route>
+        <Route exact path='/🥑'><AvocadoPage Vertical={Vertical}/></Route>
 
         {/* The 404 Page */}
         
