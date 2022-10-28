@@ -4,21 +4,27 @@ import ImageSection from "../../../section/ImageSection";
 import ImageSideSection from "../../../section/ImageSideSection";
 import ProgramHeader from "../../programs/ProgramHeader";
 
+function ArelecIntro() {
+    return (<>
+        ARElec (once named EDCI) was a small association at my college. The association focused not just on recycling and ecology,
+        but also computer literacy and cybersecurity. Unfortunately, the association has ceased operations at time of writing. Still,
+        I remember my time working in it as vice president positively. I managed to give a few seminars, and help with communication
+        to the student body. Even as our membership shrank, the president and I still were able to organize a few impressive events.
+    </>)
+}
+
 export default function ArelecPage({
     Vertical = false
 }) {
 
     return (<>
         <ProgramHeader name="Asociacion Pro-Reciclaje de Electronicos (ARElec)" />
-        <ImageSection title='Ecology and Tech Consciousness' imgSrc="/images/endeavors/arelec/main.png" /
-        //ignore vertical 
-        >
-        <ElevatedSection>
-            ARElec (once named EDCI) was a small association at my college. The association focused not just on recycling and ecology,
-            but also computer literacy and cybersecurity. Unfortunately, the association has ceased operations at time of writing. Still,
-            I remember my time working in it as vice president positively. I managed to give a few seminars, and help with communication
-            to the student body. Even as our membership shrank, the president and I still were able to organize a few impressive events.
-        </ElevatedSection>
+        <ImageSection title='Ecology and Tech Consciousness' imgSrc="/images/endeavors/arelec/main.png"
+            Vertical={Vertical} /*Don't ignore vertical you dolt*/>
+            {Vertical && <ArelecIntro />}</ImageSection>
+        { !Vertical && <ElevatedSection>
+                <ArelecIntro />
+            </ElevatedSection>}
         <ImageSideSection imgSrc="/images/endeavors/arelec/ad.png" Vertical={Vertical}>
             <ElevatedSection title='Recycling Drives'>
                 ARElec hosted a few recycling drives at the college, where we mostly collected batteries and other small electronics.
@@ -40,9 +46,9 @@ export default function ArelecPage({
         </ImageSideSection>
         <ImageSideSection imgSrc="/images/endeavors/arelec/seminar.jpg" Vertical={Vertical}>
             <ElevatedSection title='Seminars'>
-                Along with the ones hosted in CompuExpo and EcoExpo, we also invited companies, and hosted our own, smaller seminars. Perhaps our 
-                most impressive one was the one pictured here, where we invited the FBI, The department of Homeland Security, Microsoft, HP, and 
-                the Puerto Rico Department of Justice. Other smaller seminars we hosted included one on malware and computer viruses, and a 
+                Along with the ones hosted in CompuExpo and EcoExpo, we also invited companies, and hosted our own, smaller seminars. Perhaps our
+                most impressive one was the one pictured here, where we invited the FBI, The department of Homeland Security, Microsoft, HP, and
+                the Puerto Rico Department of Justice. Other smaller seminars we hosted included one on malware and computer viruses, and a
                 seminar I gave myself about Linux and how to install it.
             </ElevatedSection>
         </ImageSideSection>
