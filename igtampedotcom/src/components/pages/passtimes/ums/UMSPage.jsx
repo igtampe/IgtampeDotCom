@@ -13,7 +13,7 @@ export default function UMSPage({
     ///images/passtimes/ums/main.jpg
     return (<>
         <ProgramHeader name='The Ultra Modern Sector (The UMS)' />
-        <ImageSection imgSrc="/images/passtimes/ums/main.jpg" title='A Nation all its own' right>
+        <ImageSection imgSrc="/images/passtimes/ums/main.jpg" title='A Nation all its own' right Vertical={Vertical}>
             Spanning over 6km by 4km, the UMS has been a massive passion project.
         </ImageSection>
 
