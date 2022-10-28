@@ -32,7 +32,7 @@ export default function OmtatPage({
         </ImageSideSection>
         <ImageSideSection imgSrc="/images/endeavors/omtat/donate.jpg" big Vertical={Vertical} right
             imgDesc="Me presenting a donation to El Instituto Psicopedagógico de Puerto Rico (IPPR)">
-            <ElevatedSection title='Getting Student Help'>
+            <ElevatedSection title='The End Result'>
                 The group ended up restoring around 70 out of the 100 computers we received to a variety of local non-profits. I remember 
                 going out in the field and dropping computers off, sometimes setting them up, and receiving in return many smiles and kind 
                 words. I also remember going out to recycle the things we couldn't restore, making sure we kept our ecological footprint down.
