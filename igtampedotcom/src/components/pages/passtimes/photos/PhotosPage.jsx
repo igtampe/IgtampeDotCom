@@ -13,7 +13,7 @@ export default function PhotosPage({
 
     return (<>
         <ProgramHeader name='Photos' />
-        <ImageSection imgSrc="/headers/day/DSC_0307.JPG" Vertical={Vertical} title="A Small Hobby">
+        <ImageSection imgSrc="/images/passtimes/photos/main.jpg" Vertical={Vertical} title="A Small Hobby">
             I take a few photos sometimes, especially with liminal spaces and lots of sunsets. You might've seen some in the header!
             Here's the whole collection. It's organized by time of day.
         </ImageSection>
