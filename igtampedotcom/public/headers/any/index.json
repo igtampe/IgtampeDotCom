@@ -58,5 +58,35 @@
         "name":"The Train Museum",
         "description":"A wide shot of the train cars at the Railroad Museum of Pennsylvania",
         "date":"7/13/2022"
+    },
+    {
+        "file":"DSC00175.JPG",
+        "name":"More 7Ks Your Way",
+        "description":"A 7000 Series WMATA train arriving at Metro Center",
+        "date":"12/17/2022"
+    },
+    {
+        "file":"DSC00213.JPG",
+        "name":"Mini Main Street",
+        "description":"A model city's main street from one of the models at the Railroad Museum of Pensylvania",
+        "date":"12/23/2022"
+    },
+    {
+        "file":"DSC00333.JPG",
+        "name":"Tiny 7-Eleven",
+        "description":"A tiny 7-Eleven from one of the models at the National Toy Train Museum",
+        "date":"12/24/2022"
+    },
+    {
+        "file":"DSC00352_1.JPG",
+        "name":"Up from the Pews",
+        "description":"An upward shot of the tile mosaic of Jesus at the Basillica of the National Shrine",
+        "date":"12/25/2022"
+    },
+    {
+        "file":"DSC00353_1.JPG",
+        "name":"The Mighty Organ",
+        "description":"A shot of the organ at the Basillica of the National Shrine",
+        "date":"12/25/2022"
     }
 ]

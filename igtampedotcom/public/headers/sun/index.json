@@ -106,5 +106,29 @@
         "name":"Hudson Bay",
         "description":"The view at twilight on Overstory in NYC",
         "date":"8/12/2022"
+    },
+    {
+        "file":"20220927_174338.jpg",
+        "name":"River's Sunset",
+        "description":"Sunset at a small waterfall in the Alapocas Run park in DE",
+        "date":"9/27/2022"
+    },
+    {
+        "file":"20221027_170550.jpg",
+        "name":"One last Picnic",
+        "description":"Picnic tables at sunset near Hawk Watch at Brandywine Creek State Park in DE",
+        "date":"10/27/2022"
+    },
+    {
+        "file":"20221027_172644-EFFECTS.jpg",
+        "name":"Through the Tall Grass",
+        "description":"Sunset through the tall grass in a trail at Brandywine Creek State Park in DE",
+        "date":"10/27/2022"
+    },
+    {
+        "file":"20221027_175231.jpg",
+        "name":"Hawk Watch at Sunset",
+        "description":"A big fall sunset from Hawk Watch at Brandywine Creek State Park in DE",
+        "date":"10/27/2022"
     }
 ]

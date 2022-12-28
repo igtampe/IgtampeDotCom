@@ -202,5 +202,71 @@
         "name":"A Farm near US-15",
         "description":"A small farm near the rolling hills of the appalachians, and US Route 15, north of Frederick, MD",
         "date":"8/6/2018"
+    },
+    {
+        "file":"20220827_172949.jpg",
+        "name":"Northeast Regional on the Susquehana",
+        "description":"The Northeast Regional Amtrak service running over the Susquehana river",
+        "date":"8/27/2022"
+    },
+    {
+        "file":"20221111_120913.jpg",
+        "name":"Yellow in the Fog",
+        "description":"A single yellow tree standing boldly among the fog near Hawk Watch at Brandywine Creek State Park in DE",
+        "date":"11/11/2022"
+    },
+    {
+        "file":"20221112_130015.jpg",
+        "name":"Wilmington in the Distance",
+        "description":"A view of Wilmington DE shot near the DuPont Environmental Education Center",
+        "date":"11/12/2022"
+    },
+    {
+        "file":"20221125_113903.jpg",
+        "name":"Mountaintop at Aguada",
+        "description":"The view towards the ocean from a mountaintop home in Aguada",
+        "date":"11/25/2022"
+    },
+    {
+        "file":"DSC00064.JPG",
+        "name":"Brandywine Park",
+        "description":"The view of Brandywine Creek at Brandywine Park in Wilmington DE",
+        "date":"12/10/2022"
+    },
+    {
+        "file":"DSC00071.JPG",
+        "name":"Brandywine Park Closeup",
+        "description":"A closeup view of the creek at Brandywine Park in Wilmington DE",
+        "date":"12/10/2022"
+    },
+    {
+        "file":"DSC00095.JPG",
+        "name":"I95 Brandywine Bridge",
+        "description":"An upwards shot of the I95 bridge over Brandywine Creek",
+        "date":"12/10/2022"
+    },
+    {
+        "file":"DSC00140.JPG",
+        "name":"Arriving at Dulles",
+        "description":"A 70000 series WMATA Train pulling into Dulles International Airport",
+        "date":"12/17/2018"
+    },
+    {
+        "file":"DSC00162.JPG",
+        "name":"Curving into Dulles",
+        "description":"An older 2000/3000 series WMATA Train pulling into Dulles International Airport",
+        "date":"12/17/2022"
+    },
+    {
+        "file":"DSC00253.JPG",
+        "name":"Looking out into the Snow",
+        "description":"My boyfriend Joseph looking out into the light snow falling in Pensylvania",
+        "date":"12/23/2022"
+    },
+    {
+        "file":"DSC00290.JPG",
+        "name":"Lancaster Farms",
+        "description":"Farms near Lancaster PA braving the winter storm winds",
+        "date":"12/23/2022"
     }
 ]
