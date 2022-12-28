@@ -1,5 +1,5 @@
 # Igtampe.com
 
-Work in progress! This is a small Vite frontend that'll replace the current google site we have at [my current domain](igtampe.com)
+![Preview of the website](https://raw.githubusercontent.com/igtampe/IgtampeDotCom/master/igtampedotcom/public/preview.png)
 
-More to come later!
+This is my website! Go visit on [igtampe.com](https://www.igtampe.com)!
