@@ -88,5 +88,35 @@
         "name":"The Mighty Organ",
         "description":"A shot of the organ at the Basillica of the National Shrine",
         "date":"12/25/2022"
+    },
+    {
+        "file":"DSC00409_1.jpg",
+        "name":"Grand Central Clock",
+        "description":"A shot of the famous NYC Grand Central Station clock",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00488.jpg",
+        "name":"The A Train",
+        "description": "A shot of the NYC Subway A train arriving to Cannal St.",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00490.jpg",
+        "name":"The E Train",
+        "description":"A shot of the NYC Subway E train arriving to Cannal St.",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00543.jpg",
+        "name":"The 5 Train",
+        "description":"A shot of the NYC Subway 5 train arriving to Fulton St.",
+        "date":"12/30/2022"
+    },
+    {
+        "file":"DSC00599.jpg",
+        "name":"The F Train in Jay",
+        "description":"A shot of the NYC Subway F train arriving to Jay St.",
+        "date":"12/30/2022"
     }
 ]

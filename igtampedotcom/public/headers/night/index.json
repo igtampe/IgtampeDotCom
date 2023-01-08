@@ -46,5 +46,17 @@
         "name":"The City that Never Sleeps",
         "description":"Manhattan Island from Rooftop at Exchange Place, still not asleep",
         "date":"8/2/2022"
+    },
+    {
+        "file":"DSC00511.jpg",
+        "name":"The Oculus at Sleep",
+        "description":"The World Trade Center Oculus at night, shops closed, merely used for transport",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00635.jpg",
+        "name":"Soups and Gyro",
+        "description":"An unassuming turkish restaurant in downtown Manhattan",
+        "date":"12/31/2022"
     }
 ]

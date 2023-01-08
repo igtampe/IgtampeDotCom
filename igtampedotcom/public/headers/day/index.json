@@ -268,5 +268,53 @@
         "name":"Lancaster Farms",
         "description":"Farms near Lancaster PA braving the winter storm winds",
         "date":"12/23/2022"
+    },
+    {
+        "file":"DSC00415_1.jpg",
+        "name":"Chrysler",
+        "description":"It's the Chrysler Building, what more can you say?",
+        "date":"12/23/2022"
+    },
+    {
+        "file":"DSC00423_1.jpg",
+        "name":"Shadows of Pan-Am",
+        "description":"The Met-Life Building (previously the Pan-Am building)",
+        "date":"12/23/2022"
+    },
+    {
+        "file":"DSC00430_1.jpg",
+        "name":"Quiet in the Chaos",
+        "description":"The NYC Public Library near Bryant Park",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00474.jpg",
+        "name":"The Greenery",
+        "description":"A shot of the skyline of NYC from Central Park",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00477.jpg",
+        "name":"No Dialtone",
+        "description":"One of the many payphones in NYC, this one in Central Park",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00480.jpg",
+        "name":"Go",
+        "description":"A stoplight in Manhattan",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00596.jpg",
+        "name":"Manhattan",
+        "description":"Manhattan as seen from the Manhattan Bridge",
+        "date":"12/30/2022"
+    },
+    {
+        "file":"DSC00701.jpg",
+        "name":"Brooklyn Bridge",
+        "description":"A view of the Brooklyn Bridge from the NYC Capitol",
+        "date":"1/2/2023"
     }
 ]

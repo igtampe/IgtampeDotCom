@@ -130,5 +130,23 @@
         "name":"Hawk Watch at Sunset",
         "description":"A big fall sunset from Hawk Watch at Brandywine Creek State Park in DE",
         "date":"10/27/2022"
+    },
+    {
+        "file":"DSC00396_1.jpg",
+        "name":"Sunrise out of Philly",
+        "description":"A sunriese(!) on the Northeast Regional out of Philadelphia",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00492.jpg",
+        "name":"Newark Penn Sunset",
+        "description":"Sunset over Newark Penn Station as seen from the station's DoubleTree hotel",
+        "date":"12/29/2022"
+    },
+    {
+        "file":"DSC00654.jpg",
+        "name":"Jersey Sunset",
+        "description":"The susnet over New Jersey as seen from the One World Trade Center Observatory",
+        "date":"1/1/2023"
     }
 ]
