@@ -10,7 +10,7 @@ export default function Footer(){
         <>
           <Divider style={{marginTop:'25px', marginBottom:'25px'}}/>
           <Typography textAlign={'center'} color={'gray'} fontSize={'15px'} style={{marginBottom:'5x'}}>
-                ©2022 Igtampe, no rights reserved.<br/>
+                ©2023 Igtampe, no rights reserved.<br/>
                 {BottomMenu.map(a=>(<HandleTinyLink link={a}/>))}
           </Typography>
           <Divider style={{marginTop:'25px', marginBottom:'25px'}}/>
