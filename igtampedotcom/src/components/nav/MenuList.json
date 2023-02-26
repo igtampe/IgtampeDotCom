@@ -186,6 +186,12 @@
                 "icon": "material:twitter"
             },
             {
+                "title": "Instagram",
+                "description": "📷 Posting some photos every once in a while! 📷",
+                "href": "https://instagram.igtampe.com",
+                "icon": "material:instagram"
+            },
+            {
                 "title": "linkedIn",
                 "description": "See more of my professional history!",
                 "href": "https://linkedin.igtampe.com",
