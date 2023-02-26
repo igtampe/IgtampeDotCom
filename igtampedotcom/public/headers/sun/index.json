@@ -148,5 +148,11 @@
         "name":"Jersey Sunset",
         "description":"The susnet over New Jersey as seen from the One World Trade Center Observatory",
         "date":"1/1/2023"
+    },
+    {
+        "file":"DSC00969.JPG",
+        "name":"Geometric Sunset",
+        "description":"Sunset through the Oxford Valley Mall in northern Philadelphia, PA",
+        "date":"2/18/2023"
     }
 ]

@@ -118,5 +118,17 @@
         "name":"The F Train in Jay",
         "description":"A shot of the NYC Subway F train arriving to Jay St.",
         "date":"12/30/2022"
+    },
+    {
+        "file":"DSC00801.JPG",
+        "name":"Fishy Fish",
+        "description":"Some small fish in the National Aquarium in Baltimore",
+        "date":"1/22/2023"
+    },
+    {
+        "file":"DSC00846.JPG",
+        "name":"Caw!",
+        "description":"A Macaw (Possibly a Guacamayo or True Macaw) in the National Aquarium in Baltimore",
+        "date":"1/22/2023"
     }
 ]
