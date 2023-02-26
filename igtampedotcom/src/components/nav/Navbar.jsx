@@ -2,7 +2,7 @@ import { Card, Divider, IconButton, Link, Tooltip, Typography } from "@mui/mater
 import {
     Home, Construction, MultilineChart,
     Photo, MovieCreation, GitHub, Twitter,
-    LinkedIn, Article, ExpandMore
+    LinkedIn, Article, ExpandMore, Instagram
 } from '@mui/icons-material'
 import { useState } from "react";
 import MenuItems from './MenuList.json'
@@ -57,6 +57,8 @@ function HandleImage({ image = "" }) {
                 return (<GitHub />)
             case 'twitter':
                 return (<Twitter />)
+            case 'instagram':
+                return (<Instagram />)
             case 'linkedin':
                 return (<LinkedIn />)
             case 'article':
