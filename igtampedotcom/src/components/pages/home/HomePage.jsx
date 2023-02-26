@@ -20,7 +20,7 @@ export default function Home({
         maybe others can find use in. Perhaps you can use it as well, or let me help you make something even greater.
       </ElevatedSection>
       <Divider style={{ marginTop: '20px', marginBottom: '20px' }} />
-      <ImageSection imgSrc="/images/20220623_123142.jpg" title='Myself' Vertical={Vertical} >
+      <ImageSection imgSrc="/images/homeMain.jpg" title='Myself' Vertical={Vertical} >
         <p>A bit about the person who's website you've stumbled into.</p>
       </ImageSection>
       <ElevatedSection>
