@@ -58,5 +58,37 @@
         "name":"Soups and Gyro",
         "description":"An unassuming turkish restaurant in downtown Manhattan",
         "date":"12/31/2022"
+    },
+
+
+    {
+        "file":"DSC01184.jpg",
+        "name":"A Place to Sleep",
+        "description":"A place to sleep at the city that never sleeps, NYC",
+        "date":"3/11/2023"
+    },
+    {
+        "file":"DSC01187.jpg",
+        "name":"Taxi!",
+        "description":"An intersection in NYC with an iconic yellow taxi cab (Unfortunately not a Crown Vic though)",
+        "date":"3/11/2023"
+    },
+    {
+        "file":"DSC01469.jpg",
+        "name":"Plaza at Night",
+        "description":"Plaza Las Americas, the largest mall of the Caribbean, at night from an aerial view.",
+        "date":"4/7/2023"
+    },
+    {
+        "file":"DSC02357.jpg",
+        "name":"Staying Warm by the Fire",
+        "description":"A crackling campfire up in the mountains of central Pensylvania",
+        "date":"6/18/2023"
+    },
+    {
+        "file":"DSC02767.jpg",
+        "name":"Patriotic Crescendo",
+        "description":"The unfurling of the flag at the end of the Boston Pops 4th of July Celebration",
+        "date":"7/4/2023"
     }
 ]

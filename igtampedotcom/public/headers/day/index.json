@@ -316,5 +316,223 @@
         "name":"Brooklyn Bridge",
         "description":"A view of the Brooklyn Bridge from the NYC Capitol",
         "date":"1/2/2023"
+    },
+
+    {
+        "file":"20230718_172739.jpg",
+        "name":"View from the Star",
+        "description":"View from the Mill Mountain Star, Roanoke VA",
+        "date":"7/18/2023"
+    },
+    {
+        "file":"20230808_105722.jpg",
+        "name":"The Big One",
+        "description":"An Emirates A380 at Dulles International Airport",
+        "date":"8/8/2023"
+    },
+    {
+        "file":"DSC_0297.jpg",
+        "name":"The Map",
+        "description":"The old American Airline's map of the world at Luis Munoz Marin Intl. Airport's Terminal D. It has since been removed due to the renovations",
+        "date":"11/14/2019"
+    },
+    {
+        "file":"DSC_0304.jpg",
+        "name":"Gate D9",
+        "description":"Luis Munoz Marin Intl. Airport's gate D9 before renovations. The padded seats were the comfiest in the airport, and it was dead silent. They have since disappeared since the renovations",
+        "date":"11/14/2019"
+    },
+
+    {
+        "file":"DSC01068.jpg",
+        "name":"Grand Central",
+        "description":"An upward view of the outside clock of Grand Central Station, NYC",
+        "date":"3/11/2023"
+    },
+    {
+        "file":"DSC01400.jpg",
+        "name":"Take Off",
+        "description":"A United A320 departing from Baltimore Washington International Airport",
+        "date":"4/6/2023"
+    },
+    {
+        "file":"DSC01415.jpg",
+        "name":"Finally Landed",
+        "description":"A British Airways 787 arriving at Baltimore Washington International Airport",
+        "date":"4/6/2023"
+    },
+    {
+        "file":"DSC01423.jpg",
+        "name":"Making a Splash",
+        "description":"An American Airlines 737 arriving at Baltimore Washington International Airport",
+        "date":"4/6/2023"
+    },
+    {
+        "file":"DSC01491.jpg",
+        "name":"Gargoyle Cookie",
+        "description":"Cookie, our snowshoe cat in PR, in her gargoyle position overlooking the neighborhood from our balcony",
+        "date":"4/7/2023"
+    },
+    {
+        "file":"DSC01495.jpg",
+        "name":"Cookie getting some Fresh Air",
+        "description":"Cookie, our snowshoe cat in PR, enjoying some fresh air out in the front balcony. It's always been one of her favorite spots",
+        "date":"4/7/2023"
+    },
+    {
+        "file":"DSC01508.jpg",
+        "name":"El Tunel",
+        "description":"A view from the overlook at Guajataca, with the old railroad tunnel visible",
+        "date":"4/8/2023"
+    },
+    {
+        "file":"DSC01521.jpg",
+        "name":"Grass out to the Ocean",
+        "description":"The field before Tres Palmas Inn, Rincon PR, leading to the ocean",
+        "date":"4/8/2023"
+    },
+    {
+        "file":"DSC01663.jpg",
+        "name":"Path to D",
+        "description":"The long walkway to Terminal D at Luis Munoz Marin Intl Airport",
+        "date":"4/10/2023"
+    },
+    {
+        "file":"DSC01680.jpg",
+        "name":"Gate D4",
+        "description":"Luis Munoz Marin Intl. Airport's gate D4 (Probably formally D9) after renovations.",
+        "date":"4/10/2023"
+    },
+    {
+        "file":"DSC01682.jpg",
+        "name":"Gate D2",
+        "description":"Luis Munoz Marin Intl. Airport's new gate D2 after renovations.",
+        "date":"4/10/2023"
+    },
+    {
+        "file":"DSC01737.jpg",
+        "name":"Luis Munoz Marin",
+        "description":"Luis Munoz Marin Intl. Airport as seen from a departing plane. Hasta Luego!",
+        "date":"4/10/2023"
+    },
+    {
+        "file":"DSC01784.jpg",
+        "name":"Sunshine on the Wings",
+        "description":"The sun peeping along the wing of a Southwest 737",
+        "date":"4/10/2023"
+    },
+    {
+        "file":"DSC01890.jpg",
+        "name":"Boat on the Cold Water",
+        "description":"An unknown boat off the shore at Rehoboth, DE. Might've been doing something with the sand",
+        "date":"4/23/2023"
+    },
+    {
+        "file":"DSC01958.jpg",
+        "name":"Boats in the fog",
+        "description":"A few sailboats out in the foggy waters of Boston, MA",
+        "date":"4/30/2023"
+    },
+    {
+        "file":"DSC01983.jpg",
+        "name":"Boston in the fog",
+        "description":"The city of Boston in a thick afternoon fog",
+        "date":"4/30/2023"
+    },
+    {
+        "file":"DSC02031.jpg",
+        "name":"Flowers in the field",
+        "description":"A macro shot of an unknown flower in Hawk Watch, Brandywine Creek State Park, Wilmington, DE",
+        "date":"5/18/2023"
+    },
+    {
+        "file":"DSC02374.jpg",
+        "name":"Doubling Gap",
+        "description":"The rewarding view of a trecherous drive to Doubling Gap Overlook in Central Pensylvania. My little Civic bravely made it.",
+        "date":"5/19/2023"
+    },
+    {
+        "file":"DSC02452.jpg",
+        "name":"George Washington",
+        "description":"George Washington proudly portrayed on a horse, a statue at the Public Garden in Boston, MA",
+        "date":"7/3/2023"
+    },
+    {
+        "file":"DSC02480.jpg",
+        "name":"The Public Garden",
+        "description":"The view on one of the bridges at The Public Garden in Boston, MA",
+        "date":"7/3/2023"
+    },
+    {
+        "file":"DSC02671.jpg",
+        "name":"I90 from the Prudential Center",
+        "description":"A Foggy View up I90, from the Prudential Center, Boston, MA",
+        "date":"7/4/2023"
+    },
+    {
+        "file":"DSC02694.jpg",
+        "name":"Commonwealth Ave. Mall",
+        "description":"The Commonwealth Ave. Mall as seen from the Prudential Center, Boston, MA",
+        "date":"7/4/2023"
+    },
+    {
+        "file":"DSC02724.jpg",
+        "name":"Is it safe to look out the window?",
+        "description":"A hallway in the Prudential Center, with eerily, completely fogged up windows",
+        "date":"7/4/2023"
+    },
+    {
+        "file":"DSC02820.jpg",
+        "name":"Ready to Depart",
+        "description":"A few planes as seen from Baltimore Washington International Airport's observatory",
+        "date":"7/20/2023"
+    },
+    {
+        "file":"DSC02886.jpg",
+        "name":"The Towers",
+        "description":"A few very thin buildings overlooking Central Park, NYC",
+        "date":"7/30/2023"
+    },
+    {
+        "file":"DSC02901.jpg",
+        "name":"Bow Bridge",
+        "description":"The famous Bow Bridge at Central Park, NYC",
+        "date":"7/30/2023"
+    },
+    {
+        "file":"DSC02908.jpg",
+        "name":"San Remo",
+        "description":"The San Remo towering over the trees of Central Park, NYC",
+        "date":"7/30/2023"
+    },
+    {
+        "file":"DSC02942.jpg",
+        "name":"Flowers of the Shakespeare Garden",
+        "description":"One of the flowers of Shakespeare Garden, Central Park, NYC",
+        "date":"7/30/2023"
+    },
+    {
+        "file":"DSC02943.jpg",
+        "name":"More Flowers at Shakespeare Garden",
+        "description":"More flowers at Shakespeare Garden, Central Park, NYC",
+        "date":"7/30/2023"
+    },
+    {
+        "file":"DSC02956.jpg",
+        "name":"Belvedere",
+        "description":"Belvedere Castle in Central Park, NYC. Who put a castle in Central Park anyway?",
+        "date":"7/30/2023"
+    },
+    {
+        "file":"DSC03007.jpg",
+        "name":"Lady Liberty",
+        "description":"The Statue Of Liberty standing triumphantly on her pedastal",
+        "date":"7/30/2023"
+    },
+    {
+        "file":"DSC03039.jpg",
+        "name":"Manhattan",
+        "description":"Manhattan as seen from Liberty Island",
+        "date":"7/30/2023"
     }
 ]

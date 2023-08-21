@@ -154,5 +154,53 @@
         "name":"Geometric Sunset",
         "description":"Sunset through the Oxford Valley Mall in northern Philadelphia, PA",
         "date":"2/18/2023"
+    },
+    {
+        "file":"DSC01165.jpg",
+        "name":"Cloudy Sunset over Lower Manhattan",
+        "description":"Sunset over downtown taken from the Empire State Building, NYC",
+        "date":"3/11/2023"
+    },
+    {
+        "file":"DSC01180.jpg",
+        "name":"Summit in the Clouds",
+        "description":"Summit One Vanderbilt, Metlife, and the Chrysler Building as seen from the Empire State Building, NYC",
+        "date":"3/11/2023"
+    },
+    {
+        "file":"DSC01548.jpg",
+        "name":"Sunset from Rincon",
+        "description":"Sunset view from the Tres Palmas Inn, Rincon, PR",
+        "date":"4/8/2023"
+    },
+    {
+        "file":"DSC01804.jpg",
+        "name":"Alone in the Clouds",
+        "description":"An unknown plane over the US East Coast flying over golden sunset clouds",
+        "date":"4/10/2023"
+    },
+    {
+        "file":"DSC01821.jpg",
+        "name":"Heading for Better Weather",
+        "description":"An unknown plane over the US East Coast flying higher than we were at the time",
+        "date":"4/10/2023"
+    },
+    {
+        "file":"DSC02104.jpg",
+        "name":"A Single Tree Before the Sunset",
+        "description":"A single tree visible from Hawk Watch at Brandywine Creek State Park, Wilmington, DE",
+        "date":"5/18/2023"
+    },
+    {
+        "file":"DSC02111.jpg",
+        "name":"Sunset Stone",
+        "description":"A macro shot of one of the stone walls at Hawk Watch, Brandywine Creek State Park, Wilmington, DE",
+        "date":"5/18/2023"
+    },
+    {
+        "file":"DSC02410-01.jpg",
+        "name":"No one Out Pizzas the Hut",
+        "description":"Sunset at a classic, unremodeled Pizza Hut in Elkton, MD",
+        "date":"6/25/2023"
     }
 ]

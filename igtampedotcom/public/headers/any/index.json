@@ -130,5 +130,114 @@
         "name":"Caw!",
         "description":"A Macaw (Possibly a Guacamayo or True Macaw) in the National Aquarium in Baltimore",
         "date":"1/22/2023"
+    },
+    {
+        "file":"20230811_174900.jpg",
+        "name":"Thank you for shopping at CTS",
+        "description":"What remains on the second to last day of the Brandywine Town Center Christmas Tree Shops",
+        "date":"8/11/2023"
+    },
+
+    {
+        "file":"DSC01061.jpg",
+        "name":"The Number 5",
+        "description":"The Number 5 pulling into 14th Street, NYC ",
+        "date":"3/11/2023"
+    },
+    {
+        "file":"DSC01123.jpg",
+        "name":"Whale",
+        "description":"The whale at the NYC Museum of Natural History",
+        "date":"3/11/2023"
+    },
+    {
+        "file":"DSC01201.jpg",
+        "name":"This is... 33rd Street",
+        "description":"The PATH Train pulling into 33rd Street Station",
+        "date":"3/11/2023"
+    },
+    {
+        "file":"DSC01253.jpg",
+        "name":"No More Money",
+        "description":"A dead ATM from an unknown bank at Lakeforest Mall, Gaithersburg MD",
+        "date":"3/26/2023"
+    },
+    {
+        "file":"DSC01275.jpg",
+        "name":"Stairs to Nowhere",
+        "description":"One of the stairs leading to no stores, at Lakeforest Mall, Gaithersburg MD",
+        "date":"3/26/2023"
+    },
+    {
+        "file":"DSC01309.jpg",
+        "name":"Empty Sears",
+        "description":"Another closed sears, at Lakeforest Mall, Gaithersburg MD",
+        "date":"3/26/2023"
+    },
+    {
+        "file":"DSC01320.jpg",
+        "name":"Lakeforest Mall is Now Closing",
+        "description":"The center courtyard of Lakeforest Mall, Gaithersburg MD, on it's last open weekend",
+        "date":"3/26/2023"
+    },
+    {
+        "file":"DSC01352.jpg",
+        "name":"Hello!",
+        "description":"Me in one of the seats at Lakeforest Mall, Gaithersburg MD. One of a set of four images with family that came along for the adventure",
+        "date":"3/26/2023"
+    },
+    {
+        "file":"DSC01497.jpg",
+        "name":"A Resting Cookie",
+        "description":"Cookie, our Snowshoe cat back in PR, resting on some blankets",
+        "date":"4/7/2023"
+    },
+    {
+        "file":"DSC01678.jpg",
+        "name":"The New Mural",
+        "description":"The new artistic mural in Luis Munoz Marin Intl. Airport's Terminal D, which replaced the old American Airline's map of the Americas",
+        "date":"4/10/2023"
+    },
+    {
+        "file":"DSC02269.jpg",
+        "name":"Confetti and her Chainsaw",
+        "description":"One of the first days Confetti, our calico in DE, felt comfortable without the top of her carrier. With a crochet chainsaw made by my BF Joseph",
+        "date":"5/27/2023"
+    },
+    {
+        "file":"DSC02329.jpg",
+        "name":"Under the Covers",
+        "description":"Confetti, our calico in DE, comfy in the sheets of our bed",
+        "date":"6/9/2023"
+    },
+    {
+        "file":"DSC02445.jpg",
+        "name":"The Boston E",
+        "description":"The Boston E train pulling into Government Central",
+        "date":"7/3/2023"
+    },
+    {
+        "file":"DSC02613.jpg",
+        "name":"Anemones",
+        "description":"Waving anemones at the New England Aquarium in Boston, MA",
+        "date":"7/3/2023"
+    },
+    {
+        "file":"DSC02635.jpg",
+        "name":"The Fishes",
+        "description":"A collection of colorful fishes at the New England Aquarium in Boston, MA. Reminds me of the Frutiger Aero aesthetic",
+        "date":"7/3/2023"
+    },
+    {
+        "file":"DSC02858.jpg",
+        "name":"Hat",
+        "description":"Confetti, our calico in DE, with a little hat",
+        "date":"7/27/2023"
+    },
+    {
+        "file":"DSC02872.jpg",
+        "name":"40!",
+        "description":"A skee ball about to enter the 40 hole, in Zelky's Beachside Arcade, Rehoboth, DE",
+        "date":"8/11/2023"
     }
 ]
