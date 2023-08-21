@@ -1,5 +1,5 @@
 {
-    "latest":27,
+    "latest":28,
     "data":[
         {
             "index":0,
@@ -202,6 +202,13 @@
             "alt":"Chopo in a modern New York City subway car",
             "description":"Chopo in a subway car in the New York City Transit Museum (which is actually in Brooklyn)",
             "date":"2/26/2023"
+        },
+        {
+            "index":28,
+            "name":"Boston Chopo",
+            "alt":"Chopo at the Boston Public Garden",
+            "description":"Chopo at the Boston Public Garden just before the Fourth of July",
+            "date":"8/20/2023"
         }
     ]
 }
