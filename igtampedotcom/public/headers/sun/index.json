@@ -202,5 +202,23 @@
         "name":"No one Out Pizzas the Hut",
         "description":"Sunset at a classic, unremodeled Pizza Hut in Elkton, MD",
         "date":"6/25/2023"
+    },
+    {
+        "file":"20231220_162712.jpg",
+        "name":"Hawk's Glorious Sunset",
+        "description":"A burning sunset at Hawk Watch, Brandywine Creek State Park, Wilmington, DE",
+        "date":"12/20/2023"
+    },
+    {
+        "file":"DSC04067.JPG",
+        "name":"Winter Bench",
+        "description":"A solitary, undisturbed bench in the winter at Hawk Watch, Brandywine Creek State Park, Wilmington, DE",
+        "date":"1/16/2024"
+    },
+    {
+        "file":"DSC04118.JPG",
+        "name":"Blazing Winter Sunset",
+        "description":"Just before we head back home, we were greeted by this beautiful sunset at Hawk Watch, Brandywine Creek State Park, Wilmington, DE",
+        "date":"1/16/2024"
     }
 ]

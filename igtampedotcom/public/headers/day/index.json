@@ -534,5 +534,41 @@
         "name":"Manhattan",
         "description":"Manhattan as seen from Liberty Island",
         "date":"7/30/2023"
+    },
+    {
+        "file":"DSC03897.JPG",
+        "name":"The Falls",
+        "description":"For yet another year, Niagara Falls continues to stun the world with her beauty. Taken from the American side.",
+        "date":"1/1/2024"
+    },
+    {
+        "file":"DSC03945.JPG",
+        "name":"On the way",
+        "description":"In the middle of a rural road in Upstate NY, on our way back to Delaware",
+        "date":"1/2/2024"
+    },
+    {
+        "file":"DSC04188.JPG",
+        "name":"Snow Chopo",
+        "description":"A Snowman with Chopo's hat overlooking the field at, you guessed it, Hawk Watch, Brandywine State Park, Wilmington, DE",
+        "date":"2/17/2024"
+    },
+    {
+        "file":"DSC04233.JPG",
+        "name":"Farewell to Snow Chopo",
+        "description":"A far away shot of a now hatless Snow Chopo at Hawk Watch, Brandywine State Park, Wilmington, DE",
+        "date":"2/17/2024"
+    },
+    {
+        "file":"DSC04277.JPG",
+        "name":"Snow Rock",
+        "description":"A macro shot of a snow covered rock at Brandywine State Park, Wilmington DE",
+        "date":"2/17/2024"
+    },
+    {
+        "file":"DSC04312.JPG",
+        "name":"Wide Open Winter Skies",
+        "description":"The crisp blue winter skies with far away clouds at Brandywine State Park, Wilmington DE",
+        "date":"2/17/2024"
     }
 ]
