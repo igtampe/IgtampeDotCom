@@ -89,7 +89,6 @@ export default function Header() {
 
     const GetImageFromCollection = (collection : 'any' | 'day' | 'sun' | 'night') => {
         headerImageAPI.fetch((data)=>{
-            console.log('Fetched!')
                 //data should be an array with length. Select a random one
                 var img = data[getRandomInt(data.length)]
 
@@ -121,8 +120,6 @@ export default function Header() {
     }
 
     useEffect(()=>{
-        console.log('Time to load an image!')
-
         //Flip a weighted coin to determine if to take from the any set or the time of day set
         //Let's do 70% time of day shots, 30% any shots
 
