@@ -134,31 +134,31 @@
         ]
     },
     {
-        "title": "Passtimes",
+        "title": "pastimes",
         "menu": true,
         "menuItems": [
             {
                 "title": "UMS",
                 "description": "The Ultra Modern Sector model nation and government",
-                "href": "/Passtimes/UMS",
+                "href": "/pastimes/UMS",
                 "icon": "/icons/ums.png"
             },
             {
                 "title": "Graphics",
                 "description": "🐸 Graphic design is my passion 🐸",
-                "href": "/Passtimes/Graphics",
+                "href": "/pastimes/Graphics",
                 "icon": "material:multilinechart"
             },
             {
                 "title": "Photos",
                 "description": "I finally got a mirrorless!",
-                "href": "/Passtimes/Photos",
+                "href": "/pastimes/Photos",
                 "icon": "material:photo"
             },
             {
                 "title": "Video Editing",
                 "description": "Basic, but definitely gets the job done",
-                "href": "/Passtimes/Videos",
+                "href": "/pastimes/Videos",
                 "icon": "material:moviecreation"
             }
         ]
