@@ -14,7 +14,7 @@ export default function ProgramCard( props : {
     const {children,imgSrc,link,name,git,site} = props
 
     return(<ImageCard title={name} imgSrc={imgSrc} href={ link ? `/programs/${link}` : undefined}>
-        <p>{children}</p>
+        {children}
         {
             (site || git ) &&
             <>

@@ -10,7 +10,7 @@ export default function PastimeCard(props : {
     const {children,imgSrc,link,name} = props
 
     return(<ImageCard title={name} imgSrc={imgSrc} href={`/pastimes/${link}`}>
-        <p>{children}</p>
+        {children}
     </ImageCard>)
 
 
