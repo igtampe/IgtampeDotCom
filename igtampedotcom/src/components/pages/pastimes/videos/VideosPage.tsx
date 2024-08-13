@@ -21,7 +21,7 @@ export default function VideosPage(){
         </ElevatedSection>
         <Grid container spacing={2}>
             {VideoList.map(a=>(
-                <Grid item xs={Vertical ? 12 : 6}><VideoCard title={a.title} ytCode={a.ytCode}>{a.desc}</VideoCard></Grid>
+                <Grid key={a.title} item xs={Vertical ? 12 : 6}><VideoCard title={a.title} ytCode={a.ytCode}>{a.desc}</VideoCard></Grid>
             ))}
         </Grid>
     </>)

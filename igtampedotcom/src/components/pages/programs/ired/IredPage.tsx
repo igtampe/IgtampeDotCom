@@ -17,11 +17,11 @@ export default function IredPage(){
             <ElevatedSection title="Out of the box">
                 IRED/IDACRA Gets you started and organized with the following packages:
                 <ul>
-                    <li>Redistributables: Common objects (Like Chopo Auth and the Chopo Session Manager), and several interfaces <br/><br/></li>
-                    <li>DbContexts: Interfaces for DbContexts for Actions, and the ever useful PostgresContext for Heroku or other PostgresSQL DBs<br/><br/></li>
-                    <li>Actions: Agents to handle Users, Notifications, Images, and more<br/><br/></li>
-                    <li>Controllers: Bases for your controllers, and reusable ones for IRED entities<br/><br/></li>
-                    <li>Launch: A Launcher with simplified, easy to setup, common instructions</li>
+                    <li>Redistributables: Common objects (Like Chopo Auth and the Chopo Session Manager), and several interfaces </li>
+                    <li style={{marginTop:"1rem"}}>DbContexts: Interfaces for DbContexts for Actions, and the ever useful PostgresContext for Heroku or other PostgresSQL DBs</li>
+                    <li style={{marginTop:"1rem"}}>Actions: Agents to handle Users, Notifications, Images, and more</li>
+                    <li style={{marginTop:"1rem"}}>Controllers: Bases for your controllers, and reusable ones for IRED entities</li>
+                    <li style={{marginTop:"1rem"}}>Launch: A Launcher with simplified, easy to setup, common instructions</li>
                 </ul>
             </ElevatedSection>
         </ImageSideSection>

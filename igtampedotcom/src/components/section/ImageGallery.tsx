@@ -20,8 +20,8 @@ export default function ImageGallerySection(props : {
             <LRGrid
                 Left={
                     <Grid container spacing={3} >
-                        {smallImages.map(I => (
-                            <Grid item xs={12}>
+                        {smallImages.map((I,index) => (
+                            <Grid key={`imageGridImage${index}`} item xs={12}>
                                 {I.big
                                     ? <BigImageCard href={I.href} imgSrc={I.imgSrc}>
                                         {I.imgDesc}

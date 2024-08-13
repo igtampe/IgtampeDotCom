@@ -39,8 +39,7 @@ export default function Home() {
             This, and several other projects formed the base for larger things to come.
           </p>
         </Section>
-        <br />
-        <Section title='Wind in the Sails'>
+        <Section title='Wind in the Sails' style={{marginTop:"40px"}}>
           <p>
             I originally started my college career as a Computer Engineer, though when I saw my proficiency in a VBA class, I knew I had to change. I translated the skills 
             from that class to VB.NET, to make stand-alone applications. It was an easy transition, and it greatly broadened my horizons, reigniting my passion for programming. 
@@ -58,8 +57,7 @@ export default function Home() {
             this that I learned ReactJS, completing my journey to becoming a full-stack developer.
           </p>
         </Section>
-        <br/>
-        <Section title='Out in the Open Ocean'>
+        <Section title='Out in the Open Ocean' style={{marginTop:"40px"}}>
           <p>
             It wasn't long after this internship, that I set sail. By the next summer, I completed college. It's an odd feeling to leave your homeland behind, but I decided to go forth
             to the open ocean (or well, the mainland US). Now in Delaware, I've begun my professional career as a Software Engineer. Now with more responsibilities, I assume my time of
@@ -80,7 +78,7 @@ export default function Home() {
       <Grid container spacing={3} style={{marginTop:'5px'}}>
         {
           ProgramsList.map(a=>(
-            <Grid item xs={Vertical ? 12 : 6}> <ProgramCard name={a.name} git={a.git} imgSrc={a.imgSrc} site={a.site} link={a.link} >
+            <Grid key={a.name} item xs={Vertical ? 12 : 6}> <ProgramCard name={a.name} git={a.git} imgSrc={a.imgSrc} site={a.site} link={a.link} >
               {a.desc}
           </ProgramCard> </Grid>
           ))
@@ -93,7 +91,7 @@ export default function Home() {
       <Grid container spacing={3} style={{marginTop:'5px'}}>
         {
           EndeavorsList.map(a=>(
-            <Grid item xs={Vertical ? 12 : 6}> <EndeavorCard name={a.name} imgSrc={a.imgSrc} link={a.link}>
+            <Grid key={a.name} item xs={Vertical ? 12 : 6}> <EndeavorCard name={a.name} imgSrc={a.imgSrc} link={a.link}>
               {a.desc}
           </EndeavorCard> </Grid>
           ))
@@ -106,7 +104,7 @@ export default function Home() {
       <Grid container spacing={3} style={{marginTop:'5px'}}>
         {
           pastimesList.map(a=>(
-            <Grid item xs={Vertical ? 12 : 3}> <PastimeCard name={a.name} imgSrc={a.imgSrc} link={a.link}>
+            <Grid item key={a.name} xs={Vertical ? 12 : 3}> <PastimeCard name={a.name} imgSrc={a.imgSrc} link={a.link}>
               {a.desc}
           </PastimeCard> </Grid>
           ))

@@ -42,7 +42,7 @@ export default function ChopoPage() {
 
             <ElevatedSection title="All the Chopos">
                 <div style={{textAlign:'center'}}>
-                    {chopoApi.data?.map((a,i)=>(<><ChopoCard index={i} chopo={a}/></>))}
+                    {chopoApi.data?.map((a,i)=><ChopoCard key={`chopo${i}`} index={i} chopo={a}/>)}
                 </div>
             </ElevatedSection>
             

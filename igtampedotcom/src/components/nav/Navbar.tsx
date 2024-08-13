@@ -121,7 +121,7 @@ export default function Navbar() {
             <table>
                 <tbody>
                     {menuItem.menuItems?.map(a => (
-                        <tr><td><HandleLink link={a} /></td></tr>
+                        <tr><td><HandleLink key={a.title} link={a} /></td></tr>
                     ))}
                 </tbody>
             </table>

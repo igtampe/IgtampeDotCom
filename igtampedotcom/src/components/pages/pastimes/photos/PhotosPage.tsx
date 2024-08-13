@@ -9,9 +9,11 @@ export default function PhotosPage() {
     return (<>
         <ProgramHeader name='Photos' />
         <ImageSection imgSrc="/images/pastimes/photos/main.jpg" title="A Small Hobby">
-            I take a few photos sometimes, especially with liminal spaces and lots of sunsets. You might've seen some in the header!
-            Here's the whole collection. It's organized by time of day. <br/><br/>
-            See more pictures on my <Link href="https://instagram.igtampe.com">Instagram</Link>.
+            <div>
+                I take a few photos sometimes, especially with liminal spaces and lots of sunsets. You might've seen some in the header!
+                Here's the whole collection. It's organized by time of day.
+            </div>
+            <div style={{marginTop:"20px"}}>See more pictures on my <Link href="https://instagram.igtampe.com">Instagram</Link>.</div>
         </ImageSection>
         <PhotosCollectionPane collection="any" name="Any Time">
             <ElevatedSection elevation={2}>

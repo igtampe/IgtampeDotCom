@@ -76,7 +76,7 @@ export default function UMSPage() {
 
         <Grid container spacing={2} style={{ marginBottom: '20px' }}>
             {UMSLandmarks.map(l => (
-                <Grid item xs={Vertical ? 12 : 4}>
+                <Grid key={l.name} item xs={Vertical ? 12 : 4}>
                     <ImageCard imgSrc={`/images/pastimes/ums/${l.image}`} title={l.name}>
                         <Typography variant="subtitle2">Built in {l.location} circa {l.year}</Typography>
                         <p>{l.description}</p>

@@ -33,15 +33,12 @@ export default function ChopoModal(props : {
                 </div>
                 <hr />
                 <div style={{ textAlign: 'center', marginTop:'20px'}}>
-                    {chopo?.description}
-                    {showLink && <>
-                        <br/>
-                        <Typography sx={{fontSize:12}}>See more Chopos on the secret <Link href='/pastimes/Chopo'>Chopo</Link> page</Typography>
-                    </>}
+                    <div>{chopo?.description}</div>
+                    <div style={{marginTop:"10px", height:"10px"}}>
+                        {showLink && <Typography sx={{fontSize:12}}>See more Chopos on the secret <Link href='/pastimes/Chopo'>Chopo</Link> page</Typography>}
+                    </div>
                 </div>
             </DialogContent>
-            <DialogActions>
-            </DialogActions>
         </Dialog>
     )
 
