@@ -9,7 +9,7 @@ export default function SwitchboardPage() {
     return (<>
         <ProgramHeader name="Switchboard" git="https://github.com/igtampe/Switchboard" />
 
-        <ImageSection vertical={Vertical} title='More Powerful, Still Simple' imgSrc="/images/programs/switchboard/main.png">
+        <ImageSection title='More Powerful, Still Simple' imgSrc="/images/programs/switchboard/main.png">
             Switchboard is the next evolutionary step from <Link href='/programs/smokesignal'>SmokeSignal</Link>, while still
             aiming to provide a simple way for users to build Server/Client apps, now in C#!
         </ImageSection>

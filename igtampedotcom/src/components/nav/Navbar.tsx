@@ -47,11 +47,9 @@ export function HandleTinyLink(props:{link:NavBarLink}) {
     const {link} = props
 
     return (<>{' '}
-        <Tooltip title={link.title}>
             <Link title={link.description} href={link.href} style={{ color: 'white' }}>
                 <HandleImage image={link.icon ?? ""} />
             </Link>
-        </Tooltip>
         {' '}</>
     )
 }

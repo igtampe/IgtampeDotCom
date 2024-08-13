@@ -130,7 +130,7 @@ export default function Header() {
         if (Any) { GetAny(); } else { GetCurrent(); }
     },[])
 
-    const ready = src.length>0 && image
+    const ready = src && src.length>0 && image
 
 
     return (

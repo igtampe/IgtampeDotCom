@@ -20,10 +20,10 @@ export default function ChopoCard(props:{
                         <div style={{ height: '100px', paddingRight: '5px' }}> <img src={`/pfp/${index}.png`} height='100px' /> </div>
                     </td>
                     <td> <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='17px'>
-                        <RenderChopoName name={chopo.name}/>
+                        <RenderChopoName name={chopo?.name}/>
                     </Typography> </td>
                 </tr>
-                <tr> <td> #{index} ({chopo.date})</td> </tr>
+                <tr> <td> #{index} ({chopo?.date})</td> </tr>
             </tbody> </table> </Card>
         </Button></>)
 

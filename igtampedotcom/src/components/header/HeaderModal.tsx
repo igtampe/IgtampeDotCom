@@ -16,18 +16,18 @@ export default function HeaderModal(props: {
         <Dialog open={open ?? false} maxWidth='md' fullWidth onClose={() => { setOpen(false) }}>
             <DialogContent>
                 <div style={{ textAlign: 'center' }}>
-                    <a href={`/headers/${collection}/${image.file}`} target="_blank" rel="noreferrer noopener">
-                        <img src={`/headers/${collection}/${image.file}`} width='100%' />
+                    <a href={`/headers/${collection}/${image?.file}`} target="_blank" rel="noreferrer noopener">
+                        <img src={`/headers/${collection}/${image?.file}`} width='100%' />
                     </a>
                 </div>
                 <hr />
                 <div style={{ textAlign: 'center' }}>
-                    <b>{image.name}</b>
+                    <b>{image?.name}</b>
                     <Typography sx={{ color: 'text.secondary', fontSize: 10, fontFamily: 'outfit', textAlign: 'center' }}><i>
-                        Taken on {image.date}
+                        Taken on {image?.date}
                     </i></Typography>
                     <br />
-                    {image.description}
+                    {image?.description}
                     {showLink && <>
                         <br />
                         <Typography sx={{ fontSize: 12 }}>See more photos on the <Link href='/Pastimes/Photos'>photos</Link> page</Typography>

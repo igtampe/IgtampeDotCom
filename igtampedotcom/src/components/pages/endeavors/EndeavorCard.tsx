@@ -10,7 +10,7 @@ export default function EndeavorCard(props : {
     const {children,imgSrc,link,name} = props
 
     return(<ImageCard title={name} imgSrc={imgSrc} href={`/endeavors/${link}`}>
-        {children}
+        <p>{children}</p>
     </ImageCard>)
 
 

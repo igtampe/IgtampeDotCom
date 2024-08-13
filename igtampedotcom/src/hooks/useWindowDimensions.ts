@@ -5,7 +5,7 @@ function getWindowDimensions() {
   return {
     width,
     height,
-    verticalMode : height < 900
+    verticalMode : width < 900
   };
 }
 

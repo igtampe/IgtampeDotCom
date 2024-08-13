@@ -30,7 +30,7 @@ export default function ColloquorPage(){
             </ElevatedSection>    
         </ImageSideSection>
 
-        <ImageSideSectionright imgSrc="/images/programs/colloquor/server.png" >
+        <ImageSideSection right imgSrc="/images/programs/colloquor/server.png" >
             <ElevatedSection title='Powered by Switchboard'>
                 Colloquor is, again, a demo for <Link href='/programs/switchboard'>Switchboard</Link>. Colloquor's server is entirely 
                 contained in the Colloquor's Switchboard Extension, in a system very similar to that of <Link href='/programs/vibe'>ViBE's</Link> 

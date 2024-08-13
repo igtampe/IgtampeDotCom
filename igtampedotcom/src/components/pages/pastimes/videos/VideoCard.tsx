@@ -21,7 +21,7 @@ export default function VideoCard(props : {
                             <Divider style={{ marginBottom: '10px' }} />
                         </>
                     }
-                    { children && <> {children}</>}
+                    { children && <p> {children}</p>}
                 </div>
             }
         </Card>

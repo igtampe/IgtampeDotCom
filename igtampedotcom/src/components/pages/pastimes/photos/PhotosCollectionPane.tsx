@@ -23,7 +23,7 @@ export default function PhotosCollectionPane(props : {
                 getHeaderIndexAPI.loading
                     ? <div style={{ textAlign: 'center' }}><CircularProgress /></div>
                     : <Grid container spacing={2}>
-                        {getHeaderIndexAPI.data.map(a => (
+                        {getHeaderIndexAPI.data?.map(a => (
                             <Grid item xs={Vertical ? 12 : 6}>
                                 <PhotosCollectionImageCard collection={collection} image={a}/>
                             </Grid>
