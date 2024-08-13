@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import ElevatedSection from "../../../section/ElevatedSection";
 import ImageSection from "../../../section/ImageSection";
 import Section from "../../../section/Section";

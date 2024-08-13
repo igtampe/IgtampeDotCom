@@ -3,7 +3,7 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { useEffect, useState } from "react";
 import HeaderModal from "./HeaderModal";
 import { HeaderImage } from "../../model/HeaderImage";
-import useApi, { generateApi, generateSimpleApi } from "../../hooks/useApi";
+import useApi, { generateApi } from "../../hooks/useApi";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import ChopoProfile from "../chopo/ChopoProfile";
 

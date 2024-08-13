@@ -6,7 +6,6 @@ import ProgramHeader from "../ProgramHeader";
 
 export default function UMSATPage() {
 
-    var w=4;
     return (<>
         <ProgramHeader name="The UMS Asset Tracking System (UMSAT)" git="https://github.com/igtampe/UMSAssetTrack" />
         <ImageSideSection big right imgSrc="/images/programs/umsat/main.png">

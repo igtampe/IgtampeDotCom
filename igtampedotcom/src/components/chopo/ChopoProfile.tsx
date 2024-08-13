@@ -29,7 +29,7 @@ export default function ChopoProfile(props:{
     return (
         <>
             <ChopoModal index={index} chopo={chopo} setOpen={setModalOpen} open={modalOpen} showLink/>
-            <div onClick={()=>setModalOpen(true)}>
+            <div onClick={chopoApi.loading ? undefined : ()=>setModalOpen(true)}>
                 <img src={pfpSrc} alt='Current profile for Ignacio' height={height ?? "50px"} />
                 <img src={'/bar.png'} alt='decorative bar' height={height ?? "50px"} />
             </div>
