@@ -1,4 +1,4 @@
-import { Button, Card, Typography } from "@mui/material";
+import { Button, Card } from "@mui/material";
 import { useState } from "react";
 import ChopoModal from "../../../chopo/ChopoModal";
 import { Chopo } from "../../../../model/Chopo";
