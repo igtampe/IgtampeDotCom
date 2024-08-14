@@ -58,13 +58,7 @@
                 "description": "Java personal and class projects",
                 "href": "/Programs/Java",
                 "icon": "/icons/java.png"
-            }
-        ]
-    },
-    {
-        "title": "",
-        "menu": true,
-        "menuItems": [
+            },
             {
                 "title": "UMSWEB",
                 "description": "The old SSH server",

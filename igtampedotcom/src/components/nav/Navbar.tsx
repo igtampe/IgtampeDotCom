@@ -1,4 +1,4 @@
-import { Card, Divider, IconButton, Link, Typography } from "@mui/material";
+import { Card, Divider, Grid, IconButton, Link, Paper, Typography } from "@mui/material";
 import {
     Home, Construction, MultilineChart,
     Photo, MovieCreation, GitHub, Twitter,
@@ -34,10 +34,12 @@ function HandleLink(props : { link : NavBarLink}) {
     const {link} = props
 
     return (
-        <Link title={link.description} href={link.href} style={{ color: 'white' }}><table> <tbody> <tr>
-            <td> <HandleImage image={link.icon ?? ""} /> </td>
-            <td> {link.title}</td>
-        </tr></tbody></table></Link>
+        <Link title={link.description} href={link.href} style={{ color: 'white' }}>
+            <div style={{display:"flex", padding:"2px"}}>
+                <div style={{width:"20px", marginRight:"10px"}}><HandleImage image={link.icon ?? ""} /></div>
+                <div style={{flex:"1"}}>{link.title}</div>
+            </div>
+        </Link>
 
     )
 }
@@ -52,6 +54,22 @@ export function HandleTinyLink(props:{link:NavBarLink}) {
             </Link>
         {' '}</>
     )
+}
+
+function HandleHeader (props : {
+    menuItem : NavBarMenuItem
+    noLink?:boolean
+}) {
+    
+    const {menuItem, noLink} = props;
+
+    return (<Typography fontFamily={'orbitron'} fontWeight={'200'}>
+        {
+            !menuItem.link || noLink
+                ? <div style={{marginTop:"2px"}}>{menuItem.title}</div>
+                : <HandleLink link={menuItem} /> 
+        }
+    </Typography>)
 }
 
 function HandleImage(props : { image : string }) {
@@ -94,87 +112,71 @@ export default function Navbar() {
     const {verticalMode : Vertical} = useWindowDimensions();
 
     const [menuOpen, setMenuOpen] = useState(false)
+    
+    const verticalTransition = "max-height 0.3s ease, opacity 0.3s ease";
 
-    const toggleMenuOpen = () => {
-        setMenuOpen(!menuOpen)
+    // Vertical Navbar
+    if(Vertical){
+        return <Card style={{padding:"10px"}}>
+            <div>
+                <IconButton onClick={() => { setMenuOpen(!menuOpen) }}><ExpandMore style={!menuOpen ? {} : { transform: 'rotate(180deg)' }} /></IconButton>
+            </div>
+            <div style={menuOpen 
+                ? {textAlign:"left", maxHeight:"880px", opacity:100,transition:verticalTransition}
+                : {textAlign:"left", maxHeight:"0px", opacity:0, transition:verticalTransition}
+            }>
+                {MenuItems.map(menuItem=>{
+                    return <div style={{padding:"10px 20px"}}>
+                        <HandleHeader menuItem={menuItem}/>
+                        {menuItem.menuItems && <hr/>}
+                        <Grid container>
+                            {menuItem.menuItems?.map(subItem=><Grid xs={6}>
+                                <HandleLink link={subItem}/>
+                            </Grid>)}
+                        </Grid>
+                    </div>
+                })}
+            </div>
+        </Card>
     }
-
-    const HandleHeader = (props : {
-        menuItem : NavBarMenuItem
-    }) => {
-        
-        const {menuItem} = props;
-
-        return (<Typography fontFamily={'orbitron'} fontWeight={'200'}>
-            {
-                menuItem.link
-                    ? <HandleLink link={menuItem} />
-                    : <>{menuItem.title}</>
-            }
-        </Typography>)
-    }
-
-    const HandleMenuItems = ( props : {menuItem : NavBarMenuItem}) => {
-        const {menuItem} = props
-        if (!menuItem.menu) { return (<></>) }
-        return (
-            <table>
-                <tbody>
-                    {menuItem.menuItems?.map(a => (
-                        <tr><td><HandleLink key={a.title} link={a} /></td></tr>
-                    ))}
-                </tbody>
-            </table>
-        )
-    }
-
-    const cellwidth = 100.0 / (MenuItems.length + 1)
 
     return (<Card style={{ padding: '10px' }}>
-        <table width={'100%'} style={{ textAlign: 'left' }}>
-            <thead>
-                <tr>
-                    {Vertical
-                        ? <>
-                            <td style={{ textAlign: 'center' }} width={`100%`}>
-                                <IconButton onClick={() => { toggleMenuOpen() }}><ExpandMore style={!menuOpen ? {} : { transform: 'rotate(180deg)' }} /></IconButton>
-                            </td>
-                        </>
-                        : <>
-                            {MenuItems.map(a => (<td width={`${cellwidth}%`}>
-                                <Link style={{ color: 'white' }} onClick={() => {
-                                    if (!a.link || menuOpen) { toggleMenuOpen() }
-                                }} ><HandleHeader menuItem={a} /></Link>
-                            </td>))}
-                            <td style={{ textAlign: 'right' }} width={`${cellwidth}%`}>
-                                <IconButton onClick={() => { toggleMenuOpen() }}><ExpandMore style={!menuOpen ? {} : { transform: 'rotate(180deg)' }} /></IconButton>
-                            </td></>
-                    }
-                </tr>
-            </thead>
-            {menuOpen &&
-                <tbody>
-                    {Vertical
-                        ? <>
-                            {MenuItems.map(a => (<tr style={{ verticalAlign: 'top' }}>
-                                {
-                                    a.title === ""
-                                        ? <></>
-                                        : <div style={{ marginBottom: '20px', marginTop: '20px' }}>
-                                            <HandleHeader menuItem={a} />
-                                            <Divider /></div>
-
-                                }
-                                <HandleMenuItems menuItem={a} />
-                            </tr>))}</>
-                        : <tr>
-                            {MenuItems.map(a => (<td style={{ verticalAlign: 'top' }}>
-                                <HandleMenuItems menuItem={a} />
-                            </td>))}
-                        </tr>
-                    }
-                </tbody>
-            }
-        </table>
+        <div style={{display:"flex"}}>
+            {MenuItems.map(a => <HoverMenu menuItem={a}/>)}
+        </div>            
     </Card>)
+}
+
+function HoverMenu(props:{
+    menuItem : NavBarMenuItem
+}){
+    const {menuItem} = props
+    const [hoverButton,setHoverButton] = useState(false)
+    const [hoverMenu, setHoverMenu] = useState(false)
+    const menuOpen = hoverButton || hoverMenu
+    if(!menuItem.menuItems){
+        return <div style={{marginRight:"20px"}}>
+            <HandleHeader menuItem={menuItem} />
+        </div>
+    }
+
+    const twoCols = (menuItem.menuItems?.length ?? 0) > 6;
+
+    return <div style={{marginRight:"20px"}} onMouseEnter={()=>setHoverButton(true)} onMouseLeave={()=>setHoverButton(false)}>
+        <HandleHeader menuItem={menuItem} />
+        <Card elevation={5} style={
+            {position:"absolute", maxHeight:menuOpen ? "400px" : "0px", width: twoCols ? "400px" : "200px",
+                overflowX:"hidden", zIndex:menuOpen ? 20 : 19,
+                transition:"max-height 0.5s ease", 
+            }
+        } onMouseEnter={()=>setHoverMenu(true)} onMouseLeave={()=>setHoverMenu(false)}>
+            <div style={{padding:"20px", textAlign:"left"}}>
+                <Grid container>
+                    {menuItem.menuItems?.map(subItem=><Grid xs={ twoCols ? 6 : 12}>
+                        <HandleLink link={subItem}/>
+                    </Grid>)}
+                </Grid>
+            </div>
+        </Card>
+    </div>
 }

@@ -14,29 +14,32 @@ export default function ChopoCard(props:{
     return (<>
         <ChopoModal index={index} chopo={chopo} setOpen={setOpen} open={open} />
         <Button onClick={() => setOpen(true)} style={{ width: '310px' }}>
-            <Card style={{ padding: '10px', width: '100%' }} elevation={5}> <table style={{width:'100%'}}> <tbody>
-                <tr>
-                    <td rowSpan={2} style={{ verticalAlign: 'top', width:'0'}}>
-                        <div style={{ height: '100px', paddingRight: '5px' }}> <img src={`/pfp/${index}.png`} height='100px' /> </div>
-                    </td>
-                    <td> <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='17px'>
-                        <RenderChopoName name={chopo?.name}/>
-                    </Typography> </td>
-                </tr>
-                <tr> <td> #{index} ({chopo?.date})</td> </tr>
-            </tbody> </table> </Card>
+            <Card style={{ padding: '10px', width: '100%' }} elevation={5}>
+                <div style={{display:"flex"}}>
+                    <img src={`/pfp/${index}.png`} height='100px' style={{ height: '100px', marginRight: '5px' }} />
+                    <div style={{flex:"1"}}>
+                        <div style={{marginTop:"10px"}}>
+                            <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='17px'>
+                                <RenderChopoName name={chopo?.name} />
+                            </Typography> 
+                        </div>
+                        <div style={{marginTop:"10px"}}>
+                            #{index} ({chopo?.date})
+                        </div>
+                    </div>
+                </div>
+            </Card>
         </Button></>)
 
 }
 
 function RenderChopoName({ name = "" }) {
 
-    const sname = name.split(' ')
+    const splitName = name.split(' ')
 
     return (<>
-        {sname[0]}
-        <br />
-        {sname[1]}
+        <div>{splitName[0]}</div>
+        <div>{splitName[1]}</div>
     </>
     )
 

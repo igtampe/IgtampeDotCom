@@ -133,50 +133,50 @@ export default function Header() {
     return (
         <div style={{ marginBottom: '15px', position: 'relative' }}>
             <HeaderModal open={detailsOpen} setOpen={setDetailsOpen} image={image} collection={collection} showLink/>
-            <img src={ready ? src : '/headers/placeholder.jpg'} alt={ready ? image.name : 'Getting...'} width='100%' /><br />
+            <img src={ready ? src : '/headers/placeholder.jpg'} alt={ready ? image.name : 'Getting...'} width='100%' />
             {!Vertical && <>
                 <div style={{ position: 'absolute', bottom: '10%', left: '16px', textShadow: '2px 2px 8px #000000' }}>
-                    <Card style={{ padding: '10px' }} elevation={2}> <table> <tbody>
-                        <tr>
-                            <td rowSpan={2} style={{ verticalAlign: 'top' }}>
-                                <div style={{ height: '0', paddingRight: '5px' }}> <ChopoProfile /> </div>
-                            </td>
-                            <td> <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='20px'>
-                                Ignacio Tampe
-                            </Typography> </td>
-                        </tr>
-                        <tr> <td> <HeaderGreeting /> </td> </tr>
-                    </tbody> </table> </Card>
+                    <Card style={{ padding: '10px' }} elevation={2}> 
+                        <div style={{display:"flex"}}>
+                            <div style={{marginRight:"10px"}}>
+                                <ChopoProfile />
+                            </div>
+                            <div style={{margin:"0 10px"}}>
+                                <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='20px'>
+                                    Ignacio Tampe
+                                </Typography>
+                                <HeaderGreeting />
+                            </div>
+                        </div>
+                    </Card>
                 </div>
                 <div style={{ position: 'absolute', bottom: '16px', right: '16px', textShadow: '2px 2px 8px #000000' }}>
                     <Paper>
-                        <Tooltip title={'Learn more about this image!'}>
-                            <IconButton onClick={() => { setDetailsOpen(true) }}> <InfoOutlinedIcon /> </IconButton>
-                        </Tooltip>
+                        <InfoButton setDetailsOpen={setDetailsOpen}/>
                     </Paper>
                 </div> </>}
             {Vertical && <>
                 <Card style={{ textAlign: 'left', padding: '10px' }}>
-                    <table width='100%'><tbody><tr>
-                        <td width='45px' style={{ verticalAlign: 'top' }}>
-                            <div style={{ height: '0' }}> <ChopoProfile height='30px' /> </div>
-                        </td>
-                        <td>
+                    <div style={{display:"flex"}}>
+                        <div style={{width:"30px", marginRight:"15px"}}>
+                            <ChopoProfile height='30px' />
+                        </div>
+                        <div style={{flex:"1"}}>
                             <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='20px'>
                                 Ignacio Tampe
                             </Typography>
-                        </td>
-                        <td style={{ textAlign: 'right', verticalAlign: 'top' }}>
-                            <div style={{ height: '0' }}> <Tooltip title={'Learn more about the above image!'}>
-                                <IconButton style={{marginTop:'-6px'}} onClick={() => { setDetailsOpen(true) }}>
-                                    <InfoOutlinedIcon/>
-                                </IconButton>
-                            </Tooltip></div>
-                        </td>
-                    </tr></tbody></table>
+                        </div>
+                        <InfoButton setDetailsOpen={setDetailsOpen} style={{marginTop:"-6px"}}/>
+                    </div>
                 </Card>
             </>}
         </div>
     );
 
+}
+
+function InfoButton(props:{setDetailsOpen : (val:boolean)=>void, style?:React.CSSProperties}){
+    return <Tooltip title={'Learn more about this image!'}>
+        <IconButton onClick={() => { props.setDetailsOpen(true) }} style={props.style}> <InfoOutlinedIcon /> </IconButton>
+    </Tooltip>
 }
