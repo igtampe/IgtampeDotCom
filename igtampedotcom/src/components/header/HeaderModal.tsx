@@ -1,4 +1,4 @@
-import { Dialog, DialogActions, DialogContent, Link, Typography } from "@mui/material";
+import { Dialog, DialogContent, Link, Typography } from "@mui/material";
 import { HeaderImage } from "../../model/HeaderImage";
 
 export default function HeaderModal(props: {
