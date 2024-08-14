@@ -48,7 +48,7 @@ export function HandleTinyLink(props:{link:NavBarLink}) {
     
     const {link} = props
 
-    return <Link title={link.description} href={link.href} style={{ color: 'white' }}>
+    return <Link title={link.description} href={link.href} style={{ color: 'white', margin:"0 2px" }}>
             <HandleImage image={link.icon ?? ""} />
         </Link>
 }
