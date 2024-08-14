@@ -21,8 +21,7 @@ export default function ProgramCard( props : {
                 <Divider style={{marginTop:'10px', marginBottom:'10px' }}/>
                 <div style={{textAlign:'right'}}>
                     {site!=='' && <Link color='secondary' href={site}><Public/></Link>}
-                    {' '}{' '}
-                    {git!=='' && <Link color='secondary' href={git}><GitHub/></Link>}
+                    {git!=='' && <Link color='secondary' href={git} style={{marginLeft:"10px"}}><GitHub/></Link>}
                 </div>    
             </>
         }

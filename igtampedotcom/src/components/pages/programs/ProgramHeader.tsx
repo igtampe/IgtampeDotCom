@@ -18,7 +18,7 @@ export default function ProgramHeader(props : {
         <Card style={{padding:'20px', marginBottom:'20px'}}>
             <div style={{display:"flex"}}>
                 <div style={{flex:"1"}}>
-                    <Typography fontFamily={'orbitron'} fontWeight='400' fontSize={'20px'}>{name}</Typography>
+                    <Typography fontFamily='orbitron' fontWeight='400' fontSize='20px'>{name}</Typography>
                 </div>
                 {site && <Link color='secondary' href={site} style={{marginRight:'10px'}}><Public/></Link>}
                 {git && <Link color='secondary' href={git}><GitHub/></Link>}

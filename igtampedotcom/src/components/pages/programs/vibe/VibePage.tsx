@@ -15,19 +15,18 @@ export default function VibePage() {
         <ImageSection title="A Simple Virtual Economy" imgSrc="/images/programs/vibe/main.png" />
         <ElevatedSection>
             ViBE was designed with one thing in mind: Simplicity. Before this, users of the UMS's virtual economy had to connect
-            to an <Link href='/programs/umsweb'>SSH Terminal</Link> to handle their transactions. That simply didn't cut it. As soon as I learned about VBA, I committed
-            towards building a simpler replacement. The result was ViBE, a simple, but intuitive Virtual Economy program, that ran
-            the economy of the <Link href='/pastimes/ums'>UMS</Link>.
+            to an <Link href='/programs/umsweb'>SSH Terminal</Link> to handle their transactions. That simply didn't cut it. As soon 
+            as I learned about VBA, I committed towards building a simpler replacement. The result was ViBE, a simple, but intuitive 
+            Virtual Economy program, that ran the economy of the <Link href='/pastimes/ums'>UMS</Link>.
         </ElevatedSection>
         <ElevatedSection>
             <ImageSection imgSrc="/images/programs/vibe/everything.png"/>
             <div style={{margin:'10px'}}></div>
             <Section title="Constantly Evolving">
-                ViBE and its services were constantly evolving. I was always excited to see what else I can add to make the user 
-                experience better. Near the end of its lifespan, Income reporting via EzTax (A subprogram of ViBE), received 
-                the ability to upload files to the ViBE Server. This is accomplished using <Link href='https://github.com/igtampe/lbl-sender'>LBL</Link>{' '}
-                (or Line by Line), a tiny file transfer protocol I made that fits neatly within the <Link href='/programs/smokesignal'>SmokeSignal</Link>{' '}
-                framework. Speaking of which...
+                ViBE and its services were constantly evolving. I was always excited to see what else I can add to make the user experience better. Near 
+                the end of its lifespan, Income reporting via EzTax (A subprogram of ViBE), received the ability to upload files to the ViBE Server. This 
+                is accomplished using <Link href='https://github.com/igtampe/lbl-sender'>LBL</Link> (or Line by Line), a tiny file transfer protocol I made 
+                that fits neatly within the <Link href='/programs/smokesignal'>SmokeSignal</Link> framework. Speaking of which...
             </Section>
         </ElevatedSection>
         <ImageSection title='Powered by SmokeSignal' right imgSrc="/images/programs/vibe/server.png">

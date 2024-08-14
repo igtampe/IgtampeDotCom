@@ -11,7 +11,7 @@ export default function Section(props : {
  return(
     <div style={style}>
         {title && title!=="" &&<>
-            <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='20px'>{title}</Typography>
+            <Typography fontFamily='Orbitron' fontWeight='800' fontSize='20px'>{title}</Typography>
             <Divider style={{marginBottom:'20px'}}/>
         </>}
         {children}

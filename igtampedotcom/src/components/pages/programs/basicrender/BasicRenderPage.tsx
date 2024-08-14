@@ -20,9 +20,9 @@ export default function BasicRenderPage() {
         </ImageSection>
         <ImageSideSection imgSrc="/images/programs/basicrender/dfdemo.png" big>
             <ElevatedSection title='Primitive Images on Console'>
-                BasicGraphics allows you to render actual images on the console. Using the proprietary DrawFile (DF) format, and its editor {' '}
-                <Link href='https://github.com/igtampe/henja3'>Henja3</Link>, users can quickly create images to later render in any program with BasicGraphics
-                (Either from a file, or as a bundled resource).
+                BasicGraphics allows you to render actual images on the console. Using the proprietary DrawFile (DF) format, and its
+                editor <Link href='https://github.com/igtampe/henja3'>Henja3</Link>, users can quickly create images to later render 
+                in any program with BasicGraphics (Either from a file, or as a bundled resource).
             </ElevatedSection>
         </ImageSideSection>
         <ImageSideSection imgSrc="/images/programs/basicrender/henja3.png" right big imgDesc="The BasicRender Rainbow Logo (without text) on Henja3">
@@ -101,8 +101,8 @@ export default function BasicRenderPage() {
             <ElevatedSection title='Easily usable anywhere'>
                 <p>BasicRender is in almost all of my console projects, just because it makes coding for the console so much easier.</p>
 
-                <p>The example used in the Repo doesn't really do it justice. For an example of what BasicRender can do, consider seeing {' '}
-                    <Link href='/programs/airportboard'>AirportBoard</Link>.</p>
+                <p>The example used in the Repo doesn't really do it justice. For an example of what BasicRender can do, 
+                    consider seeing <Link href='/programs/airportboard'>AirportBoard</Link>.</p>
 
                 <p>AirportBoard was originally an example project for BasicRender as a VB.NET module, but has since been reworked to use the new C# class libraries. Thanks to extensive
                     backward compatibility efforts, the two are functionally indistinguishable. However this leap has allowed us to make it more portable, especially by publishing it

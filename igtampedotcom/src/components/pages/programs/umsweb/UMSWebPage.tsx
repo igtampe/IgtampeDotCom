@@ -40,8 +40,8 @@ export default function UMSWebPage(){
 
         <ImageSideSection right imgSrc="/images/programs/umsweb/limitations.png">
             <ElevatedSection title="Limitations">
-                The UMSWEB from the start, although having its charm, was somewhat difficult to access. For my younger cousins and friends, the{' '} 
-                <Link href="https://www.youtube.com/watch?v=N4cZEivJ1-U">multi-step process</Link> to setup, connect, and actually operate within
+                The UMSWEB from the start, although having its charm, was somewhat difficult to access. For my younger cousins and friends, 
+                the <Link href="https://www.youtube.com/watch?v=N4cZEivJ1-U">multi-step process</Link> to setup, connect, and actually operate within
                 the economy every time meant some operations took too long to commit and to verify. In addition, the Economy grew so quickly that 
                 we soon hit the 32-Bit signed integer limit. This is one of the major reasons ViBE was created, and was adopted very quickly.
             </ElevatedSection>

@@ -1,4 +1,4 @@
-import { Card, Grid, IconButton, Link, Typography } from "@mui/material";
+import { Card, Grid, IconButton, Link } from "@mui/material";
 import {
     Home, Construction, MultilineChart,
     Photo, MovieCreation, GitHub, Twitter,
@@ -48,12 +48,9 @@ export function HandleTinyLink(props:{link:NavBarLink}) {
     
     const {link} = props
 
-    return (<>{' '}
-            <Link title={link.description} href={link.href} style={{ color: 'white' }}>
-                <HandleImage image={link.icon ?? ""} />
-            </Link>
-        {' '}</>
-    )
+    return <Link title={link.description} href={link.href} style={{ color: 'white' }}>
+            <HandleImage image={link.icon ?? ""} />
+        </Link>
 }
 
 function HandleHeader (props : {
@@ -63,13 +60,13 @@ function HandleHeader (props : {
     
     const {menuItem, noLink} = props;
 
-    return (<Typography fontFamily={'orbitron'} fontWeight={'200'}>
+    return (<div style={{fontFamily:'orbitron', fontWeight:'200'}}>
         {
             !menuItem.link || noLink
                 ? <div style={{marginTop:"2px"}}>{menuItem.title}</div>
                 : <HandleLink link={menuItem} /> 
         }
-    </Typography>)
+    </div>)
 }
 
 function HandleImage(props : { image : string }) {
@@ -126,11 +123,11 @@ export default function Navbar() {
                 : {textAlign:"left", maxHeight:"0px", opacity:0, transition:verticalTransition}
             }>
                 {MenuItems.map(menuItem=>{
-                    return <div style={{padding:"10px 20px"}}>
+                    return <div key={menuItem.title} style={{padding:"10px 20px"}}>
                         <HandleHeader menuItem={menuItem}/>
                         {menuItem.menuItems && <hr/>}
                         <Grid container>
-                            {menuItem.menuItems?.map(subItem=><Grid xs={6}>
+                            {menuItem.menuItems?.map(subItem=><Grid key={subItem.title} xs={6}>
                                 <HandleLink link={subItem}/>
                             </Grid>)}
                         </Grid>
@@ -142,7 +139,7 @@ export default function Navbar() {
 
     return (<Card style={{ padding: '10px' }}>
         <div style={{display:"flex"}}>
-            {MenuItems.map(a => <HoverMenu menuItem={a}/>)}
+            {MenuItems.map(a => <HoverMenu key={a.title} menuItem={a}/>)}
         </div>            
     </Card>)
 }
@@ -172,7 +169,7 @@ function HoverMenu(props:{
         } onMouseEnter={()=>setHoverMenu(true)} onMouseLeave={()=>setHoverMenu(false)}>
             <div style={{padding:"20px", textAlign:"left"}}>
                 <Grid container>
-                    {menuItem.menuItems?.map(subItem=><Grid xs={ twoCols ? 6 : 12}>
+                    {menuItem.menuItems?.map(subItem=><Grid item key={subItem.title} xs={ twoCols ? 6 : 12}>
                         <HandleLink link={subItem}/>
                     </Grid>)}
                 </Grid>

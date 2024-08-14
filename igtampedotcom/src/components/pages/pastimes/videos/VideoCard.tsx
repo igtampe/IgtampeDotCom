@@ -17,7 +17,7 @@ export default function VideoCard(props : {
                 (title || children) && <div style={{padding:'15px'}}>
                     {
                         title && <>
-                            <Link href={`https://www.youtube.com/watch?v=${ytCode}`}><Typography fontFamily={'orbitron'} fontWeight='200'>{title}</Typography></Link>
+                            <Link href={`https://www.youtube.com/watch?v=${ytCode}`}><Typography fontFamily='orbitron' fontWeight='200'>{title}</Typography></Link>
                             <Divider style={{ marginBottom: '10px' }} />
                         </>
                     }

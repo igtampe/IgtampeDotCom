@@ -32,10 +32,10 @@ export default function LRGrid(props : {
         <>
             <Grid container spacing={3}>
                 <Grid item xs={flipElements ? bigWidth : smallWidth}>
-                    {flipElements ? <>{Right}</> : <>{Left}</>}
+                    {flipElements ? Right : Left}
                 </Grid>
                 <Grid item xs={flipElements ? smallWidth : bigWidth}>
-                    {flipElements ? <>{Left}</> : <>{Right}</>}
+                    {flipElements ? Left : Right}
                 </Grid>
             </Grid>
         </>

@@ -142,7 +142,7 @@ export default function Header() {
                                 <ChopoProfile />
                             </div>
                             <div style={{margin:"0 10px"}}>
-                                <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='20px'>
+                                <Typography fontFamily='Orbitron' fontWeight='800' fontSize='20px'>
                                     Ignacio Tampe
                                 </Typography>
                                 <HeaderGreeting />
@@ -162,7 +162,7 @@ export default function Header() {
                             <ChopoProfile height='30px' />
                         </div>
                         <div style={{flex:"1"}}>
-                            <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='20px'>
+                            <Typography fontFamily='Orbitron' fontWeight='800' fontSize='20px'>
                                 Ignacio Tampe
                             </Typography>
                         </div>
@@ -176,7 +176,7 @@ export default function Header() {
 }
 
 function InfoButton(props:{setDetailsOpen : (val:boolean)=>void, style?:React.CSSProperties}){
-    return <Tooltip title={'Learn more about this image!'}>
+    return <Tooltip title='Learn more about this image!'>
         <IconButton onClick={() => { props.setDetailsOpen(true) }} style={props.style}> <InfoOutlinedIcon /> </IconButton>
     </Tooltip>
 }

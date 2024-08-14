@@ -17,8 +17,8 @@ export default function SwitchboardPage() {
         <ElevatedSection title='Send and Receive as many times as you want'>
             Unlike its predecessor, Switchboard maintains connections open, allowing users to send and receive data as many
             times as they want before disconnecting. Everything is managed on the client side by using a SwitchbaordClient object,
-            which can easily be extended for whatever purpose is necessary. See the <Link href='/programs/Colloquor'>Colloquor</Link> {' '}
-            project and its use of the ColloquorClient class.
+            which can easily be extended for whatever purpose is necessary. See the 
+            <Link href='/programs/Colloquor'>Colloquor</Link> project and its use of the ColloquorClient class.
         </ElevatedSection>
 
         <ElevatedSection title='No More Wait Times'>

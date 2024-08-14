@@ -21,8 +21,10 @@ export default function SmokeSignalPage() {
                 SmokeSignal, when implemented properly, can make it easy to communicate with a distant server, as if it was a simple local function.
 
                 <p>On the server, it's as simple as making a new SmokeSignal Extension using the provided interface.  For clients, base classes 
-                    are already available for <Link href='https://github.com/igtampe/SmokeSignalClient'>VB.NET</Link>, {' '}
-                    <Link href='https://github.com/igtampe/SmokeSignal-CommandLine'>C#</Link>, and <Link href='https://github.com/igtampe/Hermes'>Java</Link>.</p>
+                    are already available 
+                    for <Link href='https://github.com/igtampe/SmokeSignalClient'>VB.NET</Link>
+                    , <Link href='https://github.com/igtampe/SmokeSignal-CommandLine'>C#</Link>, 
+                    and <Link href='https://github.com/igtampe/Hermes'>Java</Link>.</p>
 
                 <p>With a few extra classes to parse the information at both ends, practically anything is possible. A few examples include</p>
                 

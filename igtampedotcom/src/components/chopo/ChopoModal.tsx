@@ -16,7 +16,7 @@ export default function ChopoModal(props : {
             <DialogContent>
                 <div style={{display:"flex", width:"100%"}}>
                     <div style={{flex:"1", paddingTop:"10px"}}>
-                        <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='17px'>{chopo?.name.toUpperCase()}</Typography>
+                        <Typography fontFamily='Orbitron' fontWeight='800' fontSize='17px'>{chopo?.name.toUpperCase()}</Typography>
                         <Typography sx={{ color: 'text.secondary', fontSize: 10, fontFamily: 'outfit' }}><i>
                             Chopo #{index} ({chopo?.date})
                         </i></Typography>

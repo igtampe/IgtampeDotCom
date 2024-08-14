@@ -15,7 +15,7 @@ export default function NotFoundPage() {
             <Card style={{ width: '100%' }}>
                 <img src='/images/deepthink.gif' style={{width:'100%', maxHeight:'200px', objectFit:'cover'}}/>
                 <CardContent>
-                    <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='20px' style={{textAlign:'center'}}>How did we get here?</Typography>
+                    <Typography fontFamily='Orbitron' fontWeight='800' fontSize='20px' style={{textAlign:'center'}}>How did we get here?</Typography>
                     <Divider/>
                     <div style={{textAlign:'center', marginTop:'10px'}}>It appears we cannot find this page</div>
                 </CardContent>

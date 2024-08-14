@@ -19,9 +19,9 @@ export default function ChopoCard(props:{
                     <img src={`/pfp/${index}.png`} height='100px' style={{ height: '100px', marginRight: '5px' }} />
                     <div style={{flex:"1"}}>
                         <div style={{marginTop:"10px"}}>
-                            <Typography fontFamily={'Orbitron'} fontWeight={'800'} fontSize='17px'>
+                            <div style={{fontFamily:"orbitron", fontWeight:"800", fontSize:"1.2em"}} >
                                 <RenderChopoName name={chopo?.name} />
-                            </Typography> 
+                            </div> 
                         </div>
                         <div style={{marginTop:"10px"}}>
                             #{index} ({chopo?.date})
@@ -38,7 +38,7 @@ function RenderChopoName({ name = "" }) {
     const splitName = name.split(' ')
 
     return (<>
-        <div>{splitName[0]}</div>
+        <div style={{marginBottom:"-10px"}}>{splitName[0]}</div>
         <div>{splitName[1]}</div>
     </>
     )
