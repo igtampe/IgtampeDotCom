@@ -1,5 +1,4 @@
 [
-
     {
         "title": "Home",
         "link": true,
@@ -30,10 +29,16 @@
                 "icon": "/icons/basicrender.png"
             },
             {
-                "title": "Clothespin",
-                "description": "A clothes and closet tracking application",
-                "href": "/Programs/Clothespin",
-                "icon": "/icons/clothespin.ico"
+                "title": "Atlas",
+                "description": "A very simple wiki application with a markdown-like syntax",
+                "href": "/Programs/Atlas",
+                "icon": "/icons/umswiki.ico"
+            },
+            {
+                "title": "Chamomile",
+                "description": "Automatic1111 made easy",
+                "href": "/Programs/chamomile",
+                "icon": "/icons/chamomile.png"
             },
             {
                 "title": "IRED/IDACRA",
@@ -42,10 +47,10 @@
                 "icon": "/icons/ired.ico"
             },
             {
-                "title": "Atlas",
-                "description": "A very simple wiki application with a markdown-like syntax",
-                "href": "/Programs/Atlas",
-                "icon": "/icons/umswiki.ico"
+                "title": "Clothespin",
+                "description": "A clothes and closet tracking application",
+                "href": "/Programs/Clothespin",
+                "icon": "/icons/clothespin.ico"
             },
             {
                 "title": "INSO Projects",
@@ -200,4 +205,3 @@
         ]
     }
 ]
-
