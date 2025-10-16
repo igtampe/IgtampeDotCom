@@ -7,16 +7,17 @@ export default function ImageCard(props: {
     children?: any,
     href?: string,
     elevation?: number
+    objectPosition?: string
 }) {
 
-    const { children, href, imgSrc, title } = props
+    const { children, href, imgSrc, title, objectPosition } = props
     const elevation = props.elevation ?? 1
 
     return (
         <Card elevation={elevation}>
             {href
-                ? <img style={{ width: '100%', height: '100%', maxHeight: '200px', objectFit: 'cover' }} src={imgSrc} />
-                : <a href={href}><img style={{ width: '100%', height: '100%', maxHeight: '200px', objectFit: 'cover' }} src={imgSrc} /></a>
+                ? <img style={{ width: '100%', height: '100%', maxHeight: '200px', objectFit: 'cover', objectPosition: objectPosition }} src={imgSrc} />
+                : <a href={href}><img style={{ width: '100%', height: '100%', maxHeight: '200px', objectFit: 'cover', objectPosition: objectPosition }} src={imgSrc} /></a>
             }
 
             {(title || children) && <div style={{ padding: '15px' }}>

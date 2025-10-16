@@ -8,10 +8,11 @@ export default function ImageSideSection(props: {
     href?: string,
     children?: any,
     right?: boolean,
-    big?: boolean
+    big?: boolean,
+    objectPosition?: string
 }) {
 
-    const { children, href, imgDesc, imgSrc, big, right } = props
+    const { children, href, imgDesc, imgSrc, big, right, objectPosition } = props
 
     const ICard = big ? BigImageCard : ImageCard
 
@@ -20,7 +21,7 @@ export default function ImageSideSection(props: {
             <LRGrid
 
                 Left={
-                    <ICard imgSrc={imgSrc} href={href}>
+                    <ICard imgSrc={imgSrc} href={href} objectPosition={objectPosition}>
                         {imgDesc === undefined || imgDesc === '' ? undefined : imgDesc}
                     </ICard>
                 }
