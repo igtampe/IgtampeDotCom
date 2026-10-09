@@ -26,7 +26,6 @@ import GraphicsPage from "./components/pages/pastimes/graphics/GraphicsPage";
 import PhotosPage from "./components/pages/pastimes/photos/PhotosPage";
 import VideosPage from "./components/pages/pastimes/videos/VideosPage";
 import AvocadoPage from "./components/pages/avocado/AvocadoPage";
-import ChamomilePage from "./components/pages/programs/chamomile/ChamomilePage";
 
 export const ChopoRouter = createBrowserRouter([{
     path: "/",
@@ -53,7 +52,6 @@ export const ChopoRouter = createBrowserRouter([{
         { path: '/Programs/Java', element: <JavaPage /> },
         { path: '/Programs/UMSWEB', element: <UMSWebPage /> },
         { path: '/Programs/IgtDos', element: <IgtampeDosPage /> },
-        { path: '/Programs/Chamomile', element: <ChamomilePage /> },
 
         { path: '/Endeavors/OMTAT', element: <OmtatPage /> },
         { path: '/Endeavors/ARElec', element: <ArelecPage /> },

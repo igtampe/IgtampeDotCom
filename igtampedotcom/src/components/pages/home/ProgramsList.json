@@ -30,21 +30,5 @@
         "git": "https://github.com/igtampe/Atlas",
         "imgSrc": "https://repository-images.githubusercontent.com/472542854/eed93ac4-1c40-4a86-81cc-95caf205b70f",
         "link": "atlas"
-    },
-    {
-        "name": "Chamomile",
-        "desc": "Chamomile is a much more beginner friendly AI image generation suite powered by the Automatic1111 API",
-        "site": "https://hub.docker.com/r/gooeyavocado/chamomile",
-        "git": "https://github.com/gooeyavocado/chamomile",
-        "imgSrc": "/images/programs/chamomile/github.jpg",
-        "link": "chamomile"
-    },
-    {
-        "name": "INSO Projects",
-        "desc": "As part of becoming a Software Engineer, we've designed several apps in large teams, with various technologies",
-        "site": "",
-        "git": "https://github.com/Class-Track",
-        "imgSrc": "/images/programs/classtrack/classtrack.png",
-        "link": "inso"
     }
 ]

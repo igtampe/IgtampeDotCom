@@ -35,12 +35,6 @@
                 "icon": "/icons/umswiki.ico"
             },
             {
-                "title": "Chamomile",
-                "description": "Automatic1111 made easy",
-                "href": "/Programs/chamomile",
-                "icon": "/icons/chamomile.png"
-            },
-            {
                 "title": "IRED/IDACRA",
                 "description": "A class library that makes it easy and fast to build ASP.NET backends",
                 "href": "/Programs/IRED",
